@@ -1,0 +1,501 @@
+CURP,nombre,paterno,materno,f_nac,calle,num,ciudad,CP
+UORA607449MNEEKG54,Clair,Carleton,Vellender,1987-08-29,Cody,9505,Perbaungan,10497
+LANX055956MTSRFG03,Kaile,Barron,Menilove,1982-01-17,Northland,7,Osinniki,27195
+IIEK157248HNEFWG28,Zechariah,Iaduccelli,Astie,1992-09-12,Sage,9,Bojongsari,52594
+FIZD841918MNEZTM26,Lorie,Spurgin,Booton,1994-01-04,Eastlawn,4848,Alor Setar,90075
+KAMJ582926MYNJYD93,Cicely,Vigurs,MacLennan,1986-02-25,Melody,2079,Nicosia,24087
+IUST985301MNEXAK33,Gabe,Cornell,Pendergast,1965-07-09,Walton,50,Banjar Dharmasemedi,14521
+BUWH488937HNEOAR53,Hansiain,Ganiford,Buttery,1984-10-15,Warner,7,Guihulngan,46759
+QUVA964623MYNYXM52,Blinni,Brideoke,Raincin,1972-05-03,Scoville,44,Adraskan,55162
+UOXF832606MZSGFH34,Eolande,Littlejohns,Duignan,1986-10-21,Rutledge,168,Shuiyang,88825
+ZODJ100555HNECXE76,Mavra,Flexman,Vibert,1988-12-29,Forster,327,Dikirnis,32182
+JUIJ680369HNECVG07,Sloan,Dunge,Carpenter,1961-02-09,Arrowood,6865,Caburan,85807
+NIJF393827MZSLFG78,Prudence,Enderby,Moynham,1971-09-16,Duke,95,Tangkolo,82335
+ZEFX401880MNEDQC00,Sergio,Mascall,Lenney,1971-10-12,Donald,674,Cennan,19830
+HUND542123MNEKDY17,Currey,Remon,Izatson,1989-01-24,Grasskamp,5006,Zehak,23559
+YULS982404HZSAFN81,Niall,Derle,Iacovielli,1988-07-04,Esch,5,Lidong,82084
+GUKG308426MNESIW26,Gavin,Smye,Brundill,1993-02-26,Heffernan,53,Beiwenquan,31848
+NEFQ170211MNEMUN56,Wilona,Ivanishev,Blackie,1993-04-06,Sauthoff,6,Cachipay,91706
+DOZK879754HZSDOP31,Enid,Harpin,Fotheringham,1975-05-12,Stone Corner,577,Ube,13007
+QUYT493734HNECBQ58,Thorpe,Emanuele,Garbert,1983-12-28,High Crossing,832,Anatuya,46537
+EUAN118205HNEXCQ39,Jere,Schlag,Kohen,1990-10-14,Banding,6178,Rijau,17719
+QOOP560588MNEPDH54,Ciro,Loy,Peaple,1963-07-28,Kim,984,Sumberbaru,74382
+OIAY503750MZSQJO47,Eleonore,Heaselgrave,Bradmore,1963-01-11,Dovetail,4561,Loureiro,94719
+XOAM079532HZSYTO02,Gary,Verner,Bullimore,1974-11-30,Sage,75,Irosin,84833
+TOKQ741737MZSOIS10,Curran,Scurr,Diack,1970-11-21,Coolidge,82,Jermuk,63776
+TONH937498HYNBWF93,Edie,Vicent,Goman,1982-05-23,Cherokee,50,Lawonda,94419
+GEAP503039HNEIEX16,Kissie,Kaaskooper,Tague,1976-06-19,Holmberg,9157,Manika,45858
+AUWN276815HZSKVA72,Crista,Odom,Meredyth,1981-08-16,Maywood,27,Feitoria,57608
+IUSU946814HYNQJZ07,Olenolin,MacKenzie,Mcsarry,1973-06-27,Roxbury,1,Junan,94290
+NAZT188006MNEECP31,Nari,Dudill,Faulkes,1973-02-16,Oak Valley,78,Langub,82182
+RAYL701911HNEOSR48,Dulci,Sybe,Mussett,1964-06-12,Dixon,1320,Cucuta,55330
+GUKO433304MZSLAV91,Sybilla,Vibert,Courtois,1968-07-10,Blackbird,321,El Triunfo,74677
+UEMX741737HNEOHX89,Ford,Hanniger,Dolling,1961-06-10,Mitchell,3,New York City,56981
+IULX282626HZSIHQ43,Sabrina,Giddings,Reary,1985-03-28,Crest Line,8888,Araal,78435
+RUXD076237HNEXQG74,Nathanael,Geroldini,Orbon,1986-02-22,Steensland,12,Saspow,51331
+TOZB291861MNEWGT48,Linnie,Welbourn,Emor,1967-06-11,Duke,6568,Maronge,78958
+EAOI517474MZSSEM81,Em,Berardt,Clamo,1963-12-05,Marcy,66,Timahankrajan,43706
+FAJL490713HNECWO26,Orton,Gillmor,Urion,1971-08-15,Badeau,72,Pondaguitan,23878
+QOFM451880MTSXOK47,Aron,Benini,O Loughran,1973-03-23,Lillian,8542,Albania,65691
+BEHY256468HNEDVC33,Felizio,Dullaghan,Pickton,1960-03-08,Summer Ridge,3020,Dallas,71642
+DICH016083MNEHZO01,Mickey,Inde,Wiggans,1978-03-04,Sundown,9622,Bryan,72443
+LUBD014038HNELWD80,Alden,Rozec,Senton,1980-07-01,Sundown,389,Pokrovskoye,38043
+LEBO310352HNEBOW67,Obadias,Philipsen,Crinkley,1983-02-08,Hayes,4331,Krasnyy Yar,75807
+MUOX423527HZSDYH71,Caddric,Sheere,Iglesia,1984-10-26,Raven,337,Liusi,56679
+DUYD011735MNEIQF32,Oralle,Roggers,Garritley,1964-03-05,Linden,819,Ekenas,19615
+KUHG237713MNENUL90,Feliks,Bartlomiejczyk,Nicolls,1963-02-04,Dayton,11,Ajaccio,71283
+UUSX548924HZSMNY75,Tawnya,Della,Dussy,1994-04-13,Hayes,520,Criacao Velha,81463
+DUVO737229HVZXRD37,Anthony,Wadesworth,Ferguson,1990-09-06,Springs,465,Youludu Sibage,44063
+EUSX661567HYNOPH79,Donetta,Audsley,Lennarde,1966-01-11,6th,696,Krylovskaya,53594
+CUEZ392876MVZBUG32,Mario,Pople,Nono,1974-04-18,Morning,75,Chinhoyi,26582
+JOHU989671HZSPNU87,Kim,Salomon,Woodcock,1961-07-10,Crowley,6258,Dongxiang,29704
+AUZX563185MYNZQA78,Brandice,Georgeou,Craighill,1964-08-26,Declaration,20,Jiangjiazui,85144
+HOOY163231MYNTSM60,Artemus,Sanson,Earie,1965-12-14,Oakridge,9,Nangan,53910
+AUTF786305MZSWFX08,Tamar,Tomicki,Feirn,1993-06-04,Old Gate,8,Erseke,63532
+IURX937566MNEHOR83,Romy,Gallamore,Aspital,1960-10-07,Kinsman,57,Ustek,60905
+YUTF454278HNEDCR56,Jody,Willmett,Aistrop,1976-10-01,7th,9,Gwangju,20542
+AULM711846MNEPWI17,Farrand,Gohier,Rydzynski,1972-02-20,Scofield,9,AmbelOn,68821
+JOOR411951MNEFNW63,Heida,O Concannon,Haglinton,1970-10-30,Washington,518,Gandara de Aquem,88725
+ZUES701616MZSBGI19,Davida,Bolan,Whitelaw,1992-06-08,Crownhardt,3,Lianpeng,18112
+EUFO409821MZSFOI00,Leilah,Alenshev,Kervin,1988-10-08,Jay,18,Shataping,26949
+PIOF931849MZSDRA12,Kora,Malinson,Bradmore,1978-08-06,Kinsman,10,Kythnos,11537
+EIKG383339MYNDQZ24,Petrina,Poultney,Liepmann,1988-07-22,Anhalt,4065,Ondoy,93335
+QAAO655290MYNFSW62,Dominique,Zavattero,Waslin,1979-10-04,Transport,286,Sempu,74343
+NUMP528637MNEBEP12,George,Brounfield,Cathenod,1988-06-12,Bayside,6,Wanshi,76356
+JIVN461993HZSRCA88,Maegan,McErlaine,McElwee,1988-01-28,Magdeline,707,Naran mandokhu Somon,35289
+UONJ148930MNERCL86,Tessa,Palmer,Walbrun,1961-04-29,Springview,1,Minshan,31610
+NIYI918193MZSYDA95,Shandra,Agus,Millett,1986-05-10,East,3990,Cardenas,81921
+AUCD941053HNEBNA00,Jill,Grog,Caulcott,1975-10-11,Elgar,11,Qaffin,34580
+LOIY784210MZSWNA26,Perl,Yerson,Currier,1987-06-03,Eggendart,14,Ballsh,22065
+WOPL488643HNEAKO13,Lira,O Hengerty,Denyer,1963-11-07,Lakewood,2,Vallehermoso,32103
+IUVE699157HNEVHO70,Emmott,Staggs,Copozio,1981-03-17,Green Ridge,357,Wenping,62330
+BUFV788030MVZTXN41,Iona,Pennaman,Kendrew,1974-12-21,Hollow Ridge,5,Wangsi,43389
+LOMU602509MNERWJ22,Abigale,Andersch,Gussin,1983-05-20,Lukken,3,Goteborg,11926
+FUUM920842HZSBPJ27,Katy,Keepence,Winscum,1990-11-24,Talisman,88,Ganta,31736
+BUMQ549428MNESKF56,Emmalynn,Brownrigg,Bolliver,1967-07-08,Anzinger,7,Leiguan,92873
+JOSU777565HNESCW12,Kaitlin,Jouhning,Rainville,1978-05-11,Montana,5,Towa,29235
+RIOD595459MYNBWZ55,Adriane,Duffell,Priver,1967-04-11,Montana,7,Santa Fe,73989
+CUEG118892MZSHES38,Isobel,Seeds,Glynn,1975-04-13,Garrison,11,Diriomo,34503
+IOCU572669HZSCZB70,Micheline,Skirven,Gommery,1965-08-22,Randy,605,Varzea da Serra,45290
+VURB857060MVZIHN84,Robinson,Pibsworth,Mower,1974-10-12,Ramsey,4107,San Diego,36907
+HOEU285587MZSZRO58,Reggi,Huggett,Ettridge,1990-11-27,Armistice,4880,Torbate Jam,90642
+VIRM718903MNETNI53,Cathy,Simants,Lawie,1985-12-07,Del Mar,56,Ronglong,91919
+CUMV180316HZSKUA44,Wolfie,Banke,McInerney,1994-08-28,Melrose,9,Guara,70575
+ROSE687885HNEDXQ03,Richie,Stillert,MacPherson,1986-06-25,Evergreen,5,San Bernardino,24288
+OUMB930364HZSMSU87,Hana,Burl,Bahde,1960-10-22,New Castle,3,Uiju,36589
+COZM278619HTLVMR13,Rodrigo,Dautry,Plaster,1987-04-14,Rutledge,9782,Maji,99669
+DUYW178260MNEDTZ12,Rosalia,Bassindale,Stealy,1984-07-28,Kings,543,Muang Phon Hong,59128
+VUGS549945HNEBUY46,Quentin,Glasner,Kinavan,1974-02-14,Maryland,3974,Yangtan,36296
+ROQA662777HNEQBV04,Basilius,Droghan,Ickov,1979-04-29,Golf View,9668,Austin,76484
+TOUW755253HVZIST86,Gareth,Norker,Bretherton,1976-07-13,Welch,5780,Moravsky Pisek,29426
+EOBF523921MNEUOE44,Fidelia,Coopper,Rude,1990-08-19,Sheridan,9064,Sishui,43140
+AUTZ709921MVZJGE37,Bryna,Darragh,Rhymes,1994-03-03,Comanche,5199,Vila Nova de Milfontes,86079
+QOSP050762MNEFGP37,Denys,Lerwill,Pitfield,1962-08-11,Dryden,2,Santo Anastacio,33692
+MURQ573602MNETYE43,Laurette,Falla,Durbann,1989-08-23,Larry,309,Rozhnyativ,46797
+HUOJ056750MVZJDZ99,Skip,Peltzer,Broadberrie,1988-03-28,Reindahl,2,Paris La Defense,21542
+HUBZ486756MNEYXD62,Rory,Bindin,Di Ruggiero,1963-05-09,Russell,9507,Limbalod,98142
+EIQP676915HYNMXR20,Stephani,Flieg,Rangall,1991-06-11,Forster,6,Fengle,90003
+WABY745955MNEMGC77,Brit,Disley,Hamlin,1982-01-09,Sachtjen,4118,Amnat Charoen,16176
+IUZO847540HZSTGN85,Dyane,Regnard,Giuron,1963-01-24,Washington,1904,Fangqiang,62203
+XUTN296904MNEZBP02,Corie,Hollyer,Pervoe,1976-05-25,Morning,24,Fenglin,30728
+CUXZ221953HZSMIE20,Fawnia,Borsay,Haith,1994-05-24,Cherokee,7,Ubaitaba,61601
+VUGC158562HZSJYL69,Tracey,Hof,Wardhaugh,1990-07-07,Bashford,167,Santa Praxedes,83041
+MURI215199MZSIXC33,Ivett,Seifenmacher,Flatley,1976-06-17,Moulton,47,Krasnapollye,58395
+RONR972610HNEVKD10,Jerri,Stickney,Gossage,1964-03-15,Anderson,9978,Jianchang,89482
+JUUQ291181MNEDJK77,Agathe,O Halligan,Pidgeon,1993-11-17,Hollow Ridge,30,Szczawno Zdroj,74981
+IUBO964223MZSZOK49,Farand,Lochead,Cowan,1989-05-13,Annamark,1749,Munoz East,39080
+ROZL131842HNEEZY42,Alexine,Chasemoore,Klimpt,1978-04-19,Roxbury,1,Imtarfa,75800
+SUTG238928MNERNC56,Kimmy,Rowesby,Josling,1993-05-03,Bunker Hill,9,Hau Nghia,55523
+UOYI253212HNEFHG11,Nikola,Throssell,Gaskin,1962-08-15,John Wall,280,Casa Nova,19965
+JUHD613477MNESMJ81,Marj,Hartness,Hellier,1967-01-10,Annamark,75,Palmeira,74289
+JOPY817942MZSJLK61,Cicily,McEwen,Osbaldeston,1971-05-24,Nevada,443,Qindu,27757
+CUYH424673HQRQCI70,Base,Birtwistle,Hendriksen,1993-05-08,Sullivan,307,Pasarbaru,51306
+COHX683798HNEUXQ71,Norris,Calcutt,Gosney,1985-10-05,Katie,2657,Huanglong,56318
+RIAV341135MNEQUN13,Georgette,Squibbs,Tommei,1970-01-13,Bunker Hill,8,Gaohe,27611
+NEJR854342MNECDB31,Efrem,Korb,Markova,1993-02-02,Almo,6221,Lhoknga,26511
+ZUDQ341480HZSCZD95,Halli,Sweatman,Bamborough,1960-08-30,Vahlen,501,Tsuyama,81575
+QUNX174647HTLEMF52,Rafe,Skoof,Briscam,1989-05-02,Carioca,6,Daegu,41551
+QOBO356286MNESHA05,Brian,Reeder,Granham,1994-07-08,La Follette,153,Segbwema,41706
+PUTV709408HZSINZ99,Karleen,Markwick,Follin,1983-05-01,Sutteridge,5530,Uralets,47742
+UOEZ083441HZSZYS04,Hermione,Woof,Crick,1971-02-23,Melby,133,Kolape,24774
+RUZU161303HZSXEK23,Shanna,Rigardeau,Earie,1977-10-07,Petterle,949,Pavlodar,63178
+POWF512408HVZMOU85,Nataline,Gubbin,Gioani,1991-06-23,Green,2221,New York City,10113
+SOIX662024HNEHQL76,Shelby,Thorp,Deluca,1973-01-02,Riverside,6914,Uwa,79537
+QUJA955933MNENJV15,Randene,Dart,Dany,1975-08-09,Dottie,42,Karlstad,88592
+QUXV217110MZSKSV04,Fonz,Thurgood,Schoolfield,1993-08-12,Upham,34,Minji,78572
+YORC170790HNEGPB81,Stesha,Batisse,Agate,1988-06-26,Nova,5293,Dawuhan,38696
+POTB842089MNEKGJ96,Hattie,Crummey,Francombe,1973-12-21,Helena,6410,Phimai,54941
+HIQU681063MNEAJY43,Aprilette,Doughtery,Botley,1966-10-16,Reindahl,18,Virje,84051
+MOJG852973HNETVI61,Cari,Poulsom,Mears,1981-04-19,Di Loreto,7,Austin,26905
+MUUW534931HNENPX80,Aldon,Urlich,Crockett,1961-01-10,Pepper Wood,789,Fazhan,55872
+NUGD844315HTLEIQ21,Yankee,Greenhill,Watsam,1983-06-24,Bellgrove,325,Kourou,54915
+OIHB334852MTLDEH11,Wayland,Price,Elan,1984-10-06,Canary,997,Si Racha,41534
+XOVE139297HNEPNK40,Erhart,Rapa,Wernher,1982-08-15,Rusk,7575,Decatur,90463
+AULA051167HNEBVT62,Celesta,Dron,Boerderman,1971-04-12,Lerdahl,209,Cisagu,99573
+GENJ106990MNERAY02,Alvie,Partner,Kibblewhite,1979-06-02,Kensington,21,Agrela,80870
+QIBA620407HNEJCA05,Mellie,Livesey,Corkhill,1960-06-13,Jenna,1694,Akkol,10637
+HILG813889MZSVBK60,Valentine,Duligal,Jarman,1992-06-08,Arrowood,50,Kebonagung,20657
+UEMY021783MYNYSN76,Franzen,Brummell,Lawton,1994-10-14,Heffernan,735,Mushie,32043
+RIUM566004MNEMIG48,Weidar,Bleby,Stockman,1994-07-02,Macpherson,2,San Eduardo,55323
+BIED335871MZSCFZ12,Daniela,Oxlee,Harbage,1986-08-23,West,3449,Aracaju,15540
+FOFC958597MVZPYM80,Shayna,Odell,Biddlecombe,1989-01-24,Cascade,4084,Macapa,60776
+EIPM822397MNERHL09,Spenser,Grushin,Bottom,1979-07-06,Buell,9785,Binhe,60401
+POQK982498MZSEVZ30,Javier,Palatini,Waplington,1963-12-29,Bonner,96,Goge,49475
+NOYW858164HZSMSJ59,Alaine,Kenna,Kuller,1975-06-08,Hollow Ridge,8992,Senj,69043
+JOGE000151MZSGWT84,Jerry,Temperton,Taggart,1969-12-03,Stephen,55,Batusangkar,78696
+FUNS708028MYNJPK58,Ely,Salterne,Clemerson,1977-02-18,Portage,4671,Bringinanom,53392
+DUFA262965HNEHBG84,Pryce,Coenraets,Tunniclisse,1975-04-04,Walton,13,Hermanus,81797
+CAGY219606HZSGOB93,Prince,Warman,Leyland,1980-04-07,Arapahoe,23,Las Yaras,38379
+NICS674841MYNYUQ68,Tamas,Betjes,Jorissen,1990-05-08,Glacier Hill,5,Tshaneni,53519
+PUJS856364MNENDK81,Sula,Gallant,Philott,1980-05-05,Arapahoe,9864,Yunmenling,28489
+TEVQ541669HYNEUF50,Celestina,Aimson,Canner,1971-10-02,Loeprich,9,Hepingjie,48615
+VUIE999411HNEPRE19,Merrie,Deluca,Andrivel,1984-09-02,Cordelia,911,Crniliste,79191
+YUQY445901HYNDCZ57,Mannie,Andrivot,Jonke,1989-04-08,Hagan,6100,Masaguisi,93419
+QUHZ712879MNEBTE67,Byron,Gainseford,Bourdon,1984-09-24,Mallory,6551,Sopo,57258
+YUBM765949HNEDOU42,Nicola,Gambell,Totton,1967-06-02,Armistice,4,Damayan,74526
+JUHQ598756MNELVJ60,Cynde,Renault,McKinn,1963-02-05,John Wall,8996,Osorno,57144
+VAOB080478MNEZLB51,Bo,Scrivenor,Frossell,1980-02-29,Moose,43,Xiongguan,12211
+BUOG587613HZSFEX39,Eddy,Aveline,Keel,1970-07-19,Bunting,1827,Sao Filipe,54904
+GUZC834242MTSBXJ56,Lanie,Clyburn,Roux,1976-08-15,Cody,5730,Poroshkovo,80420
+WUKO194296HYNLQA31,Nanni,Borg Bartolo,Trousdale,1963-05-23,American Ash,34,Kratie,73244
+TURP626853MZSELJ14,Fons,Hadcock,Lempke,1981-12-23,Center,1551,Hengpi,40779
+SULD218410HZSGAZ14,Renard,Cowcha,Landes,1969-09-27,Oneill,7,Marcovia,42207
+YUAU798887HTLUBM08,Georgena,Stansbury,Lovel,1990-04-16,Nancy,9,Maukaro,20147
+UUIS548272HNEHLC68,Fina,Kinnin,Ulyat,1960-11-27,Del Mar,9849,Hroznetin,29935
+ROQZ624085MYNUIL94,Mic,Blazevic,Pickin,1988-06-13,Anderson,9,Roshchino,79458
+QUAU821227MNEXAI35,Clea,Gare,Jarnell,1974-06-19,John Wall,28,Altamira,65482
+MIJD674262HZSQDS17,Gerri,Zeale,MacTerlagh,1971-06-16,Scofield,62,Muraharjo,44998
+UUIA485357HYNHCG41,Normy,Sawfoot,De Freitas,1989-10-31,Northridge,1431,Ekou,97014
+OOMN485031MYNBXI97,Inglebert,Hyndman,Ghidetti,1990-01-25,Shoshone,6182,Okinawa,43591
+JIIJ370026MNEKNG43,Quint,Francillo,Evers,1979-05-17,Debs,1491,San Antonio,32025
+TUEK831553HNEQAT94,Langston,Hansed,Dunston,1984-10-14,Petterle,69,Claremorris,49918
+WOIW782029MYNPRF90,Brandy,Solly,Schimon,1993-12-15,Karstens,8141,Perpignan,39864
+NAEX873421MVZBEY17,Shirlee,Moyers,Castree,1968-10-11,Nova,758,Sycow,72244
+WUKN139398HNEHRF22,Jacinthe,Ogus,Sitford,1968-07-20,Fordem,641,Elekmonar,21711
+OUZR128584MYNKIY11,Frants,McCrae,Follis,1980-04-09,Lindbergh,8,Lawrenceville,23519
+QAEY602919HZSLYK82,Zandra,Kestian,Harrema,1992-07-04,Porter,5028,Maszkienice,42137
+IUGU524421MZSIOR81,Caralie,Deeprose,Caruth,1969-11-18,Buena Vista,19,Yuecheng,39556
+ZIDF967574MZSIEN96,Vanessa,Prys,Sekulla,1967-12-22,Old Shore,1177,Muyuzi,40285
+AUCU355136MNETGK57,Fay,Kubacki,Gable,1982-04-06,Bartelt,11,Sandefjord,98370
+UUQR969667HYNWVP52,Miran,Glass,Gilstin,1990-04-20,Johnson,88,Benito Juarez,19829
+FUDK140437HNEYUV65,Ruby,Furness,Power,1965-11-13,1st,563,El Canton,58266
+AUTF938005MYNDSV46,Brnaby,Tully,Casburn,1993-03-16,Northview,8,Sidon,59853
+AUJO052735HNEBPN29,Malachi,Cramond,McInnerny,1994-06-22,Dawn,6864,Tsagaan Owoo,14440
+PUPV560870HNEAXB17,Alfie,Piddocke,Farbrother,1969-03-25,Sunbrook,4356,Horana South,24910
+OUWD936329HNETME76,Howard,Leyshon,VanBrugh,1966-03-13,Golf Course,51,Jagodnjak,92434
+JOFS008828MNEQSR17,Angelica,Borzoni,Siggs,1983-04-28,Mayfield,3143,Delaes,88987
+HORX802171HYNVLZ07,Erl,Fieldgate,Agirre,1968-02-20,Fisk,6737,Ngangpo,70539
+DAVI586484MNEIXU97,Shaine,Barth,Conichie,1986-08-21,Troy,7,Longgang,81051
+WUSG859629MZSUDR68,Ettore,Cases,Richen,1990-11-12,Briar Crest,71,Kalymnos,42767
+VAYL654937MZSTCX15,Hatti,Beal,Darell,1992-09-04,Talmadge,5514,Yonggwang up,13918
+WOSQ228309MVZXDI96,Jasmin,Huband,Claxson,1976-11-02,Dixon,2,Nuradilovo,66977
+LUBT596794HZSUML07,Viviene,Colegrove,Caisley,1994-09-22,Myrtle,9430,Guankou,16980
+UUZV018762HNEIGS31,Cliff,Drakes,Hrinchishin,1962-02-16,Maple Wood,3,Musa Qalah,13716
+HUQP342498HNEGRS38,Curry,Shoesmith,Chisolm,1977-10-18,Homewood,5,La Breita,99528
+BUYM302511MTLCXV51,Paddie,Klais,Pencot,1963-07-10,Myrtle,14,Ukhta,59387
+VOSZ719673HNEMUN53,Ripley,Naismith,Ghirigori,1964-04-23,Westport,20,Tayginka,85279
+IUGY996580MYNHGQ16,Trixie,Richmond,Fateley,1960-01-10,Grayhawk,20,Prokopyevsk,44036
+PUWP295061HNEQHT85,Karola,Crop,Blooman,1983-09-17,Raven,39,Beverwijk,31943
+UOOH011221MVZOHX87,Yvonne,Quilty,Newman,1964-06-22,Tennessee,1350,Mykolayiv,43190
+MUKP748679MNEEYC80,Lynnell,Jallin,Lund,1969-07-20,Magdeline,46,Kuangsan,80658
+UUMK834037HTCSIN07,Sela,Mulholland,Lillicrop,1991-03-05,Hudson,597,Marseille,86008
+HUHO149358MZSPGH49,Garrott,Brugmann,Sweetlove,1972-06-28,Delladonna,3519,Zelesice,71562
+BOND756214MZSWCF64,Rea,Richardt,Balden,1978-04-19,Blackbird,2,Las Palmas,29290
+QUDE016769MNEEXQ63,Simeon,Thorowgood,Newlan,1982-07-06,Anhalt,23,Bulan,98011
+KUZH807904MNEVWQ90,Frances,Gager,Tonbye,1984-04-22,Kedzie,4686,Taozhuang,74596
+DODP133905HZSIZH40,Perren,Reedshaw,Burwood,1978-02-25,Springs,37,Ape,27595
+XONF127990HNEQSM81,Archibald,Tenbrug,Bowdon,1964-11-20,Homewood,54,Nagoselo do Douro,89553
+PINP139118HZSRPW88,Torin,Larratt,Jardine,1987-04-13,Scoville,5256,Dongguang,99063
+TIML384269MYNWRB60,Lucius,Cessford,Reap,1994-12-04,Warbler,141,Kebonagung,85967
+FUQM420645MNEDNL52,Winona,Finessy,Grafton,1984-11-25,Clove,2577,Huquan,57908
+UOJX227056HYNMHL33,Flin,Klima,Dunridge,1992-05-03,Vermont,853,Cabay,24024
+TUFJ767771HYNECR90,Sarita,Dampier,Strode,1976-02-02,Spohn,30,Lezhu,20340
+DUIC134523HZSKPE70,Marni,Ashburner,Fredson,1974-07-18,Erie,491,Saryaghash,14433
+BOSW859742MNEQKL80,Keefe,Tatersale,Seak,1984-09-20,Russell,46,Padangtepung,14394
+CUOX739224HNEZWX04,Gigi,Delahunt,Bermingham,1965-08-02,Northland,3067,Saint Amand les Eaux,35738
+DIPB500231MYNHZL09,Florence,Weakley,Dessaur,1991-05-18,Mariners Cove,384,Kholbon,42524
+ZUIH145037HVZORZ42,Danice,Bitcheno,Nolan,1965-02-08,Arapahoe,986,Estrada,22138
+SUQK717907HZSPHR63,Brodie,Flaws,Joincey,1979-04-01,Eggendart,227,Paris ,74874
+CEVA185533MVZYCO81,Gilly,Rayment,Mehaffey,1984-07-05,Sycamore,23,Dasiping,51306
+RUZF354046MNEEBW67,Tawsha,Sowersby,Lartice,1964-12-06,Dahle,6597,Diamantina,91635
+TUPS493772HZSPNL22,Kelila,Ducastel,Signorelli,1961-10-28,Donald,976,Xiangquan,52602
+WORB381144MNEKID91,Worthington,Archbould,Aluard,1973-11-24,Nelson,830,Al Qamishli,97094
+YUEX427846HNEDQY72,Isadora,Andriveau,Kopps,1965-01-17,Jay,403,Treinta y Tres,28667
+RIVU715797MNEXRS19,Brianna,Bambridge,Caw,1976-03-10,Springs,84,Chavdar,26862
+QOYG080099HYNVEQ48,Curr,Lethem,Hardinge,1978-01-11,Independence,9,Altos,81340
+ZUWC241594MNEEOJ90,Caroline,Levecque,Moar,1968-03-05,Mayfield,7,Baqiu,90893
+NUBD648649MNEIGC86,Thibaut,Bather,MacAindreis,1990-11-24,Ridgeway,371,Nangan,60290
+KAZN446770MZSENQ08,Peter,Kringe,Jennions,1991-08-22,Milwaukee,1,Wuerqihan,91951
+ROID373300MNEKWD01,Hendrick,Larrington,Gair,1987-10-13,Hauk,4,Capitan Bermudez,25227
+HASB655045HZSHLF29,Sharla,Baynton,Auckland,1986-03-09,Lunder,4605,Wenceslao Escalante,61006
+NUNZ771193HNEDIA39,Anne corinne,Dyment,Pallant,1966-08-13,Macpherson,9717,Sutton,14854
+GOOX625542HZSZOT91,Fitzgerald,Cromarty,Kochlin,1976-03-03,David,2726,Ano Mera,79131
+XEJM453591MNEGOT13,Faunie,Robinson,Davis,1990-08-17,Macpherson,68,Cikiray,52410
+EIJY178366HNEAYG69,Engracia,Van Der Weedenburg,Hardeman,1965-02-26,Mcbride,19,Samut Prakan,52203
+CUTE456498HYNZUR25,Margalit,McKeller,Stollenbecker,1978-07-24,Rigney,4165,Cristobal,49464
+EUWL957464MNEQLO91,Werner,Jacks,Winnister,1977-03-31,Texas,5295,Mataya,48004
+LEBG773916MNEKSN63,Deane,Evanson,Grigorkin,1969-07-14,Maple,9210,Al Majaridah,92397
+QOPR588909MNEUSB49,Jamey,Greggersen,Diable,1994-06-14,Wayridge,1238,Ashkasham,81136
+RUNR986577MNEBLZ55,Shane,Lappin,Oneil,1963-06-04,Mcbride,9,Zouila,75847
+TUEZ466235HNEVED48,Herc,Ghiriardelli,Edmondson,1979-04-13,Marquette,8267,Makinsk,40905
+PIDX649739MNEYCI54,Marjory,Raspison,Percy,1966-09-08,Dottie,6447,Forestville,95704
+RUOT455775HYNOPL26,Leonid,Stollsteimer,Pengelley,1962-03-28,Pleasure,56,Sumberbakti,42120
+CAWR599041HNEDVY39,Iona,Tellenbach,Ubanks,1989-07-10,Corry,13,Caetite,31270
+WULA265216MNEQSP78,Ewan,Champney,Cantrill,1984-05-16,Beilfuss,2259,Yakovlevo,36257
+MIZF054274MNEALJ60,Pauly,Langsbury,Dearell,1961-02-09,Mifflin,4279,Dongxi,32968
+AUDO257722HZSCPZ39,Kathe,Rapson,Scolland,1986-05-19,Macpherson,288,Dongbei,54595
+JUEZ216840HNECUK25,Dela,Jameson,Dwight,1980-02-28,Riverside,31,San Juan Atitan,80279
+CUYS353386HZSAUR26,Rod,Kempe,Chupin,1987-06-28,Mockingbird,9,Pokrovskoye,95308
+DEGM341089MVZGIB23,Glory,Geeves,Joyce,1971-06-09,Dexter,62,Celadna,33349
+WIRD395950HZSLBX06,Urbain,Schwanden,Kennefick,1967-10-05,Anderson,9,Yangxunqiao,75308
+AOLG974141HZSDBX92,Elbert,Perello,Chatters,1974-03-07,Reindahl,752,Caijiang,24605
+RUBU742867HNELTF42,Mair,Lynam,Sapey,1964-04-09,Eastwood,3204,Cigarogol,57688
+AOXI694766HNESXH17,Raeann,Sidgwick,Jumeau,1981-12-15,Nobel,87,Neiba,82676
+XOPK125144MNEALK66,Dorine,Dovey,Oxbe,1993-07-07,Kennedy,596,Nakhon Ratchasima,69845
+FUEW177220HTCYGB10,Pietrek,Shepton,Bernaert,1963-10-15,5th,554,Sing Buri,37275
+NONL376124MYNKLF44,Ebony,Mangan,Skeates,1981-08-27,Kedzie,92,Gotse Delchev,33067
+PIPN757057MVZRHC14,Phineas,Ducarel,Tebbit,1970-12-17,Elgar,6637,Muesanaik,91811
+EUBY771832HZSHXE59,Carmel,Hitter,Elijah,1992-05-25,Dapin,5345,Khost,96297
+UEDS068853HNECMP38,Carley,Paireman,Menlow,1971-04-15,Carioca,5602,Hezuoqiao,96834
+FEWU220728HTLVJE55,Germana,Muck,Varley,1978-08-08,Fairfield,798,Kvasice,95589
+CUDV469697MYNNKC53,Levon,Pinson,Cisneros,1986-01-14,Butternut,5283,Yug,94926
+KEHJ617505HNEYTM74,Garrek,Theyer,Dederich,1989-06-07,Transport,936,Landivisiau,37910
+MIIS468069HNEAIF25,Fianna,Branson,Dood,1986-04-03,Mcguire,1,Miastko,56919
+JUKN835396MVZFSU98,Eilis,Pettus,Waterworth,1979-03-19,Lillian,1,Saint Paul,49101
+TUAX548976HYNQEB97,Tabitha,Hawick,Goldine,1960-11-17,Maple,9374,Aviuges,37813
+WODT118293HZSJYB04,Fionnula,Heaysman,Kuhwald,1973-07-19,Cody,3,Anadia,51020
+ZUDX512307HNELYI71,Berkie,McLay,Bene,1966-08-08,Eggendart,433,Nanganga,66290
+JUJK017989MZSESO96,Rebbecca,Readshall,Errett,1966-03-21,Carioca,8009,Melenki,44895
+AUMP579705HZSTZH10,Brandice,Daniels,Olenichev,1977-12-25,East,22,Artsvaberd,35202
+ZUHK504860MYNUSX55,Rosanne,Pebworth,Kamall,1967-12-14,Heffernan,720,Ekero,68698
+GUCI545430HNEMGB01,Lynde,Wolledge,Parzis,1976-12-29,Forster,73,Pindamonhangaba,99851
+PUJM189658MNEBCQ13,Trefor,Archell,Skoggins,1975-01-21,School,4696,Cortez,43042
+RUAV563647MNEVMC08,Riannon,Peet,Agney,1962-06-26,Heath,89,Abakan,25010
+OIQK922565HNECAO19,Taylor,Jiru,Chiles,1964-02-10,Gale,8694,Watergrasshill,29342
+ZUGI811977MYNPSB35,Maryellen,Duggary,Morton,1981-10-06,Fairview,5079,Huanchaco,56225
+KUPS124980MYNUME65,Tabitha,McSwan,Preator,1961-02-21,8th,2811,Pai do Vento,76148
+MUWD146214HNEQTM35,Teena,Hardington,Alderwick,1978-12-18,Lake View,38,Xijiang,17285
+NUJQ056496HNEVQI49,Terza,Vella,Phidgin,1994-09-25,Burrows,916,Liujiagou,44818
+XOAP073451MNEEVA42,Hershel,Stephen,Baff,1963-04-23,Sunbrook,9800,Kitakata,37076
+MIKQ861253MZSHQM28,Toddy,Huffey,Tilbrook,1967-04-20,Hallows,2,Calcada,28138
+WUAE058209HZSDUN20,Maria,Sattin,Salack,1989-11-30,Cottonwood,9,Sceaux,93217
+OEYM547454HZSMUD94,Cozmo,Michelmore,Mibourne,1988-07-22,Chinook,298,Cisiih,42561
+KUEQ567084MZSBEZ16,Sholom,Paunton,Brennans,1983-03-24,Birchwood,7151,Pirane,22601
+JUVR468368MNEDNC92,Ermanno,Wilton,Jordeson,1960-08-28,Manitowish,1436,Karjalohja,76977
+OUBY901683HNEMWI47,Dorthea,Ewebank,Tombs,1962-06-30,Raven,6979,Orleans,67671
+SUGB948302MYNWZJ42,Shayla,De Anesy,Peinton,1969-05-03,Ludington,1031,Idrija,57876
+JUNW360053MNEQGK64,Anatollo,Steele,Cragell,1971-02-20,Sutherland,918,Chlumec,82246
+UUHM355019MNELIP46,Lena,Lindenberg,Martell,1976-05-15,Sage,49,Kan,73201
+YUKM930949HYNNIR28,Mignonne,Burnyeat,Dubbin,1981-03-10,Utah,1,Garupa,41237
+PUJF172190HVZXGY33,Eleanore,Baskwell,Lies,1966-11-22,Eastlawn,152,Chociwel,16277
+WUTR347841HZSABQ01,Peyton,Snoddin,Sherman,1971-08-07,Welch,22,Dongshangen,85726
+TUIU594356HTLUYT29,Maurizio,McQuorkel,Konzelmann,1987-01-31,Lyons,940,Al Aqir,11997
+XURY165640MYNDLF18,Berte,Bottrell,Broadberry,1987-12-21,Old Shore,2581,Renfengzhuang,62969
+CIDR221018MVZERV78,Smitty,Eley,Trank,1962-03-05,Sheridan,31,Billings,15785
+VIZW773380MZSWVY35,Tootsie,Stigers,Divill,1992-01-28,Coolidge,2,Hejiang,83337
+ZAAW985118HNEMFE99,Tommi,Fandrey,Piatti,1975-02-28,Toban,8560,Karanggedang,20756
+VOZR505862MNEXYL69,Maddi,Crinkley,Cufflin,1981-02-25,Main,3608,Lobanovo,27422
+UUCP741769HVZQMB08,Kristel,Stickford,Rylands,1981-12-12,Blackbird,8,Potelych,44386
+AOVA277125MNELSF71,Gasper,Calbert,Francino,1985-02-24,Cascade,3057,Chikeng,44398
+XIUW842198HZSLVW27,Shari,Walentynowicz,Amaya,1982-08-26,Merrick,5050,Port Hawkesbury,23195
+QIUY404324MNENBT63,Dun,Gorvette,Sarch,1987-09-09,Merchant,1,Mercaderes,37999
+JUAZ526048MNEMDT76,Kenyon,Wenman,Kitchingman,1967-07-10,Northport,968,Kolchikon,71020
+NOZU436254MNEBLH46,Eydie,Gorbell,Hendonson,1979-11-19,Heffernan,328,Jaguaruana,12750
+KUFY957301HNEAWC71,Tedra,Dolder,Paudin,1992-02-23,Oriole,7598,Lillehammer,39120
+YAAM670952HNETJO86,Jacquie,McCarroll,Soden,1978-03-22,Ludington,23,Ilangay,27738
+EOWK580694HTLQFW10,Sylvia,Wem,Salvidge,1965-08-19,Oakridge,479,Ulme,20679
+LIPU077456HZSHGX56,Kathrine,Pouck,Keese,1980-09-23,Dwight,92,Quinipot,29277
+YIWU904885HZSUHP35,Gregorius,Mains,Berns,1976-08-31,Messerschmidt,3966,Roshchino,80875
+FALV121476MNESHC27,Deerdre,Bassilashvili,Platts,1985-03-09,Prairieview,38,Lianhe,29186
+FIFU656454MYNNRZ15,Michaella,Stive,Askey,1970-10-26,Commercial,191,Shuiyang,59167
+WUUB523443MNENGB29,Magdalen,MacIntosh,Bezants,1984-04-28,Springview,24,Kangxung,69220
+IIXP069473HNEEJL15,Ashlin,Dowda,Fishly,1973-10-08,Coleman,97,Wantou,78851
+JUIX759746HNEKSI83,Gennifer,Boyall,Beglin,1977-11-16,Stang,14,Staryy Togul,37492
+PEAQ854102MNEWIL30,Joceline,Rodnight,Novkovic,1974-11-11,Park Meadow,9476,Ludishan,16118
+IUPZ110676MSRHCV73,Analise,Olerenshaw,Carlin,1993-07-04,Killdeer,7617,Buffalo,47307
+YUEI352830HZSNMG78,Efrem,Dargie,Zielinski,1976-02-29,Golf View,5683,Yinying,60509
+QEKV580014HZSIUZ84,Kylie,Gell,Galtone,1976-12-07,Pond,8,Weishui,67166
+BOLB398562HYNEZM62,Dasya,Rochewell,Whinray,1974-03-24,Nancy,60,Verkhnyaya Tura,69108
+MUIL926292MZSKRZ87,Rufus,Pinnocke,Caldeyroux,1964-08-13,Oneill,21,Lyuban,26969
+ZIYK790835MNEDHI93,Giorgi,Henrichsen,Hilling,1965-01-08,Lindbergh,82,Maggotty,39837
+IOPN927095MYNSMO51,Easter,Greaves,Lorman,1991-09-13,Westerfield,90,Miaoertan,28107
+LOGR383909HTSUFR37,Orella,Kamien,Pycock,1985-08-29,Fisk,7795,Wahawaha,62001
+VOLJ020263MZSOIH29,Jojo,Luckes,Angrock,1976-02-18,Sommers,68,Rongelap,45589
+IUWN533336HNECTX27,Anabal,Ramet,Gaddes,1980-08-04,Elgar,10,Zhanjiang,36150
+TIJL701777HVZICS03,Meghan,Truse,Willowby,1962-02-06,Boyd,6293,Mos,78824
+OODT838335MNEOMH25,Christine,Sollime,Blose,1965-11-13,Ludington,5,Oetutulul,75413
+JORE196435MZSJQV14,Kathie,Scotson,Parsall,1986-08-24,Mosinee,625,Bangkle,77430
+TUTH634489HYNZQI86,Jesselyn,Paolinelli,Flooks,1960-11-14,Moland,810,Strabychovo,54089
+ZUUK562435MNEYBC43,Venita,Drohane,Siddaley,1991-11-23,Dennis,422,Funes,61911
+SOEC847079HZSSKI18,Leoine,Rassell,Bramble,1968-04-27,Steensland,180,Buraen,14307
+YIUD726597HYNFZC21,Micky,Meatcher,Kroin,1964-06-20,Warner,9,Bov,24944
+EUJG466973MVZXIE15,Kathryn,Hubbart,Nutty,1980-12-23,Lillian,2977,Abelheira,51115
+YIJU192591HYNXBV76,Tess,Balch,Keat,1964-01-12,Monica,8,Thakurgaon,66445
+EAWP314096HVZECK67,Jeffry,Stonehewer,Commuzzo,1985-01-30,Crescent Oaks,907,Diamantino,94054
+XATL726398HZSWBT77,Tucky,Spire,Bruty,1987-10-28,Sloan,79,Zhangjiapan,77818
+KUKU121813MNEDZU71,Sonnie,Izakovitz,Lamers,1983-08-23,Hooker,7425,Vorontsovka,60744
+NOYW112962MTCNHF42,Laurette,Kayley,Lanfer,1983-07-22,Hooker,9403,Karangbenda,38125
+GUQO289643MNEUXY97,Maynord,Liveing,Nolin,1993-12-26,Reindahl,4237,Nanyang,46947
+GUPF771495HNEWSU81,Harli,Ottosen,Gilliatt,1979-10-03,Derek,9,Bazi,17096
+GOCI947960MNEHVD79,Anneliese,Traske,Gates,1978-09-05,Center,1669,Opuwo,66609
+RUJL041639MYNWDQ23,Lydie,Daine,Nemchinov,1977-11-04,Esch,93,Daduchuan,78118
+WUFU667443MZSJFS03,Damon,Tillot,McCafferky,1975-12-17,Londonderry,4,Cha Grande,84531
+MUHD825208HNEVLB32,Leland,Tocknell,Reisin,1980-02-11,Birchwood,333,Dabola,26844
+COQT052224HZSYUM97,Marcy,Meek,Towsie,1963-05-31,Mayfield,11,Ayapel,80881
+QUJB312641MNEZFB84,Hadria,Bartolomeazzi,Izchaki,1979-04-28,Aberg,275,Langtad,73430
+KOPG644873HNEEAR65,Sherill,Kyttor,Sissens,1963-07-17,La Follette,717,Clifden,15060
+IUVS025189HNEEBD01,Cody,Soldner,Choules,1992-03-21,Dawn,5,Qianwei,22990
+AUKI760794HVZEKX52,Tristam,Calladine,Echelle,1990-05-09,Fulton,3195,El Mida,11733
+KUOB623169MNELKJ46,Fernande,Towll,Thurstance,1993-08-25,Pearson,5745,Karabash,29031
+ZIKT389517HNEAFC13,Ambros,Foulkes,De Lisle,1970-10-08,Monument,8951,Cau Giat,41198
+JUYD511390MNEAPR51,Toby,Caton,Flintoffe,1991-05-01,Sachtjen,83,Ciwaru,63808
+NUPK661389MZSWZG41,Syd,Gallico,Laundon,1969-07-27,Bluestem,9,Minchinabad,78940
+HAPT924797MNEBJG93,Noelani,Riatt,MacColm,1973-01-02,Rigney,6939,Krajan Demit,10270
+NOQE419879HNEZBL21,Chicky,McQuaid,Bowes,1988-03-04,Mendota,519,Tucson,43070
+GUAD954387HTLIMU26,Kris,Janway,Dober,1972-08-05,Dakota,199,Vigia,48030
+DUQU364652HNEEFI36,Woodie,Sirmond,Castellone,1963-08-20,Luster,4,Bobigny,10817
+JIRZ748254MNEEAU05,Carmel,Caps,Summerton,1989-04-05,Chinook,3,Askainen,38492
+GUCB983702MZSFTG91,Sally,Collishaw,Gettens,1989-03-16,Badeau,73,Qiqian,62404
+RUJE993719HNEXDL76,Clerc,Ambrosoli,McAteer,1987-02-22,Anderson,23,Blois,38277
+BUJH532348HTLGNP78,Audi,Huetson,Blackshaw,1993-01-10,Pierstorff,38,Igarape Acu,66464
+POUJ631378HNEOYF15,Emmit,Caldero,Byford,1994-08-26,Sherman,70,Gangkoujie,52984
+VIFJ553397MZSMYD91,Shem,Marieton,Asp,1984-04-10,Caliangt,22,Guyang,87981
+XUXE834961HYNWRK15,Minta,Fitzpatrick,Ghioni,1983-01-23,Rieder,4743,Surami,29275
+LAFG962239MNEINK75,Blondell,Dainter,Chomicz,1974-10-17,Esker,80,Hartford,59392
+CUSH223972MYNROC94,Ephrem,Esplin,McKeefry,1960-08-16,Lyons,1,Shanghu,82848
+TUBM929126MNEXQJ29,Faina,Boullen,Spottswood,1971-05-05,Gulseth,86,Aruja,48618
+RAJS947728HNEAIL15,Staford,MacQuist,Vedenyapin,1994-09-01,Lake View,2312,Ciudad Bolivar,18409
+TOLW768085HYNJSE00,Corrie,Duffield,Yeudall,1979-11-09,Grasskamp,58,Colorado Springs,80392
+XUJI466068HVZFHM53,Calida,Andreas,Kemmet,1983-09-17,Waubesa,4,Pivka,39673
+IUUR743217HNEDYL92,Rogerio,Gallager,von Nassau,1986-07-14,Hazelcrest,89,Kamieniec Zabkowicki,79549
+VAOF147833MNESQO54,Vickie,Aburrow,Rewcastle,1986-09-26,Forest,7177,Cinyumput,24338
+EUGA423129HNENOQ08,Barnett,Twinborough,Heddy,1976-05-24,Harbort,62,Bang Pahan,22394
+NEUC704928MVZRGM61,Jocelyne,Kneal,Boleyn,1982-08-01,Grayhawk,8,Xinjian,80979
+XUUO504996MNEVZU57,Myriam,Lamburn,Dilland,1960-09-25,Texas,68,Kwaluseni,35177
+KUQJ965006MNEHRK17,Dalt,Greetham,Golborn,1964-11-13,High Crossing,7177,Komprachcice,30178
+KAOR285582MNETLM35,Standford,Anwell,Defraine,1974-08-06,Independence,6,Duoxiang,83122
+VIAI409840MNEHZX90,Mohandis,Blazey,Gilloran,1984-08-17,Lien,3066,Tocopilla,25735
+QUDR389673HZSFKD67,Nan,Simione,Finnemore,1965-11-12,8th,2180,Libmanan,95633
+GUMC005237HZSBRX94,Susanna,Dutnell,Toone,1982-10-27,Hansons,85,Nato,12386
+EUPO108752HZSXKL91,Ichabod,Eliet,Nabbs,1987-01-24,Ruskin,4,Krajan,13015
+VIWV661449HTLJPM44,Anne,Hirth,Wilber,1965-09-25,Saint Paul,119,Citeureup,48680
+HUOH796875HNEXWN74,Stacee,Jacobssen,Farney,1987-12-03,Buell,7527,San Pedro,36783
+AUAB008887MNEBJD01,Emalee,Cannon,Vedeshkin,1991-04-02,Larry,3,Hengbanqiao,99603
+WICP628816MVZHZG36,Megan,Coldman,Sheirlaw,1981-10-09,Jenna,4,Kyra,12152
+RUKN223385HNELXP36,Gearalt,Varran,Cardon,1991-01-09,Sommers,5556,Rychnov nad Kneznou,72878
+LIEI613132HZSWSL91,Evita,Sorrie,Marusyak,1966-11-05,Scoville,148,Klatovy,36589
+BIFJ136365HVZWRA47,Lauralee,Rozec,Braidon,1975-10-12,Rusk,263,Gaojingzhuang,98977
+GEHW239730HZSRQW47,Myca,Orta,Arnley,1992-10-20,Granby,455,Starigrad,60101
+BAMF837454MYNNCX89,Marcia,Gregoretti,Takis,1973-12-16,Springview,3,Bichena,97553
+AIVC074056HNEZGD83,Amberly,Von Der Empten,Awty,1976-01-11,Fisk,4304,Certegui,20594
+OOIH010742MVZFAB54,Nikkie,Bacup,Hassan,1961-04-18,Center,480,Aygek,20078
+CUHA320494MNELBD55,Hilliary,Yude,Hudel,1970-03-11,4th,338,Wroblew,26137
+ZUBW208890MNEQSK46,Mariel,Fettiplace,Traite,1968-01-06,Iowa,2546,Kamphaeng Phet,92278
+KEAV244975MVZNKP51,Nikoletta,Ruddlesden,Yeld,1964-12-01,Larry,3,Heris,11635
+WIMW478912HNEAEH46,Arleen,Gwioneth,Derges,1965-11-29,Fuller,8,Carepa,34451
+EACA366787MZSYSO06,Gael,Ewan,Rennie,1964-09-19,Dexter,59,Sobral da Abelheira,15910
+OOJP743398MNEHRF20,Rena,Branigan,Nolton,1986-03-24,Brentwood,925,Polo,17139
+YOCT873514MZSPGI54,Shay,Twelves,Cutmore,1981-07-12,Packers,99,Guangshun,68573
+GIJW539731MNEHKB57,Marcelle,Maus,Base,1971-04-22,Hollow Ridge,420,Victoria,76442
+GUNV600734MNEVQL89,Helge,Coneron,Balcers,1980-05-14,Ludington,19,Portao,99554
+RUCE488332MNERDQ53,Kelci,Lentsch,Cuningham,1965-06-16,Becker,6913,Tokyo,71733
+EUDG233891MYNXZV20,Warden,Ashdown,Tzarkov,1982-04-05,Eliot,48,Shixian,55864
+MIOB604635MNELMP89,Adlai,Igonet,Gaven,1979-12-31,Cody,4008,Liushan,34093
+IIRM940441HNETFE41,April,O Gaven,Mapowder,1978-08-04,Ridge Oak,2071,Riachao das Neves,94462
+EUDU187775HTSHBE60,Nicole,Le Houx,Geertje,1986-04-27,Stoughton,40,Ketampak,29129
+MUPT943961MZSXTU09,Ransom,Bushaway,Daid,1971-11-12,Summer Ridge,8421,Kfar NaOranim,14426
+JUUT249270HVZKFX61,Halli,Fright,Wheelwright,1986-11-07,Scoville,7145,Cirumput,82967
+RUQA879249HNEWGK66,Prue,Hayley,Shields,1979-03-27,Upham,6,Salaberry de Valleyfield,57350
+JOEH122580MNEPBA13,Trixi,Stannis,MacLise,1982-09-26,Eggendart,72,Jaba,99059
+FUXT804499MNEMBR92,Padraic,Fessler,Mival,1966-12-02,Doe Crossing,8,Daxing,32457
+DUZV186437MNEGLM55,Chance,Cadd,Polini,1968-11-19,Scoville,8,Shangzhang,51741
+QONV586423MTLJXB76,Anastasie,Pidgeon,Lambirth,1961-02-19,Maryland,4589,Santa Rosa,38845
+IINY046087HYNRBP57,Vinson,McGebenay,Ritter,1982-03-06,Schlimgen,5662,Kuala Lumpur,66463
+CEXZ545762HNEWXT96,Sheila,Winkett,Gherardelli,1985-03-25,Ludington,26,Sencur,40416
+YEFO597586HNEQRH14,Marlo,Commander,Pavel,1960-12-01,Del Sol,2613,General Martin Miguel de Guemes,19299
+AOBR034506HVZDZS40,Odille,Motton,Huntingdon,1986-11-16,Harbort,2,Lons le Saunier,35086
+WUEW662796HZSBFE70,Moyna,Veryan,Stryde,1976-12-27,Hoepker,2,Ravansar,15070
+GUTX360756MZSVQL65,Didi,Golding,Kiss,1964-01-06,Arrowood,8664,Campos Gerais,98053
+CUZH600300HVZLQV10,Denis,Kunzel,Stutt,1986-08-11,Express,9886,Mainz,49322
+JUZF997854MNEBAM93,Orelee,Pocock,Ketts,1992-09-26,Grover,9660,Yudaikelike,12913
+XOUG569694MNEHBT70,Christy,Kobke,Durek,1967-07-30,Loftsgordon,80,Lyon,92590
+DOQF510401MNECDK69,Selie,De Leek,Crucitti,1973-08-05,Westerfield,4311,Kamennyye Potoki,72256
+ZUIJ912140MNEIZM80,Davidde,Paulsson,Symmers,1978-01-31,Commercial,527,Maubara,54530
+VIIH789853HNEYLH54,Crissy,Aston,Emanuel,1962-10-25,Butternut,5721,Bagong Sikat,11823
+EIQL352656MNEYDR62,Willette,Robben,Radleigh,1966-04-25,Northview,2391,Caen,83033
+ZOUT938154HZSMQC90,Emyle,Shapera,Essberger,1979-07-05,Springs,4821,Torbeyevo,12239
+FOMY135627MNEHXZ35,Kaleb,Noot,Simonato,1989-02-24,Oakridge,4585,Petrodvorets,56108
+VUMS626279MZSNZS43,Findlay,Moakes,Merrington,1968-01-05,Brentwood,1306,Pugeran,97456
+FOGY890028HZSBRO24,Johnnie,Reddlesden,Carnier,1993-09-24,Norway Maple,6394,Santa Rosa,95314
+EUNP094906HNEOQK29,Bear,Leving,Raoux,1972-10-04,Toban,6370,Rueil Malmaison,34232
+OOFN782984HYNIEV91,Tremain,Dyball,Quenell,1960-03-28,Caliangt,201,Tehetu,52878
+SUCU418549HZSBFS35,Jocelyne,Jessep,Gear,1989-09-26,Ronald Regan,6513,Kil,96554
+NOZU243334HNEXHS54,Bartolemo,Gobert,Beddie,1962-09-07,Coleman,69,Nyuksenitsa,19089
+JUSN681500HNEFQD35,Coriss,Gowers,Latty,1988-11-24,Caliangt,670,Yanhe,74528
+GAQX014821MNETBG68,Thomasina,Buche,Fairleigh,1992-06-11,Bonner,8681,Basicao Coastal,91722
+MOQH720419MNEPVA78,Datha,Reaman,Gostridge,1979-04-12,Gulseth,7129,Jimenez,80925
+GOQE732299HNEBUH94,Irving,Skarin,Gaudon,1980-04-07,Eastlawn,2277,Kadubetara,46391
+TAOC932499MYNISL70,Bernadina,Czajkowska,Fee,1986-10-10,Prentice,56,Binan,16642
+RUIN154458MZSBCX74,Misty,Mozzi,Ohrt,1974-07-24,Service,19,Chartres,31874
+MULX479776MZSYUR80,Devin,Mallatratt,Dowbekin,1962-05-01,Briar Crest,7686,Chon Thanh,15847
+XUPO441744HNEWDB35,Florida,Hanham,Zoanetti,1968-03-03,Pennsylvania,5,Linxi,17001
+EUYN961882HVZSVP76,Colline,Liddiard,Fawks,1961-03-20,Huxley,9,Dioknisi,39600
+LUHR722891HZSTJR14,Leigha,Piwall,Gleadhell,1994-10-30,Granby,97,Pak Chom,43302
+GOAQ650245MNEDQU32,Tanya,Stobart,Chomley,1987-08-12,Graedel,384,Omis,17342
+GULB851784MYNSXE53,Esme,Radage,Quincey,1990-11-10,Dapin,32,Nikaia,32492
+WUFL683709MZSKEA52,Agretha,Lindfors,Veall,1972-02-04,Eggendart,8678,Doujia,26433
+OAGT152119MZSXGJ32,Sergeant,Runciman,Bouts,1992-03-16,Pankratz,8254,Salamina,36636
+ZIXL975594HVZWQM65,Sheelah,Connick,Gouck,1992-11-29,Jana,366,Neo Psychiko,45112
+UUPE840085HYNOZR47,Blondie,O Nolan,Ladbrooke,1968-07-15,Bay,60,Sangay,78704
+SUJG937244HZSHOQ50,Demeter,Sexten,Epilet,1967-09-23,Banding,7,Al Jizah,27204
+SOXV773998HNEVWY39,Marja,Heintze,Gallard,1965-12-23,Buhler,6762,Hongjiang,93872
+SILU786919MTSMDN07,Griff,Ben Aharon,Askwith,1988-07-11,Chinook,5467,Panggungrejo,41280
+KUAE329445MNELQC26,Dorry,Durbyn,Belsey,1982-05-22,Buhler,6834,Challans,35845
+ZOFY900821HNEDTM99,Rabbi,Darthe,Maudlen,1980-06-22,West,3841,Midland,14594
+MUZS255958HNEVFK05,Shane,Flade,Oldam,1992-05-26,Marcy,86,Hanusovice,14902
+HUPN163721MNEUMK21,Erastus,Renault,Hare,1976-05-11,4th,19,Hammam Sousse,59569
+BOAT802187HNEQUY44,Lucia,Arlow,Yearnsley,1967-07-17,Welch,112,Sembe,73488
+BOVB224327HNEPCE05,Gabi,Whylie,Bazely,1973-08-21,Manufacturers,1,Jorok Dalam,26834
+UIKM304066MNEDOT89,Jan,Jaggli,Perrington,1960-03-10,Dennis,3,Taiping,42950
+GOBY477032MNELVM44,Darci,Charlot,Kempshall,1964-03-11,Mockingbird,96,Foumban,29920
+MILW563807MNEIWR39,Constancia,Agg,Vedekhin,1990-01-27,Karstens,804,Dinjo,47436
+YEAZ611576HZSSZO72,Evin,Hunnicot,McKmurrie,1980-09-03,Johnson,724,Tarub,77696
+MOXJ671307HZSVMC08,Linda,Battyll,Harrison,1961-09-03,Maple,6267,Lekas,57652
+KUNR805447HZSMQV98,Shamus,Scones,Goley,1986-01-26,Melvin,993,Bitaogan,13616
+FOGV360468HNEQCI54,Tallia,Nattriss,Jeffrey,1960-09-30,Scott,1387,Serravalle,47252
+JUMG462736HTSKHB38,Giorgio,Walentynowicz,Hugonin,1970-12-29,Lakewood,81,New Pandanon,25130
+XUCI785654MZSBPM88,Elvis,O Hearn,Rivaland,1985-02-10,Florence,684,Torrijos,53367
+OUXM294584HNEQCG31,Edithe,Ghelardi,De la Barre,1965-10-15,Oriole,329,Kiambu,79462
+QUPF671303HNENQL58,Merridie,Yeiles,Meace,1974-09-17,Dennis,2,Basseterre,67595
+EUKT657760MNEBWK35,Valeda,Desorts,Beake,1967-05-16,Mockingbird,5,Legionowo,62915
+AUFR711622HZSHYP10,Maurene,Bohea,Mears,1969-12-08,Goodland,14,Yonago,19088
+OUBH096462HNEOTZ66,Byron,Breinlein,McNirlan,1986-05-06,Westport,2289,Bolekhiv,71036
+RUVC120682MYNNRJ09,Lenore,Binton,Bletsoe,1990-04-02,Gulseth,33,Dandian,88026
+JIJQ506588HNEKDC30,Susette,Hairon,Astling,1970-12-09,Ridgeway,5,Kokkini Trimithia,68869
+UUUM559100HNEQIP12,Dorry,Foux,Croney,1988-01-31,Brickson Park,41,Zielonka,90563
+EOOJ513432MVZKMH08,Simonette,Iliff,Tie,1983-12-17,Armistice,71,Gechuan,30575
+HUBM601387HNEQSK31,Den,Flowith,Bencher,1987-04-21,Sunfield,46,Riofrio,64138
+AOWB231671HNEDPK36,Kasper,Tumility,Luxford,1992-05-21,Dottie,5793,Taluncemara,11287
+EOMX717016MNEUFZ46,Rhys,Pardue,Briston,1963-05-13,Moulton,2325,Bantardawa,80748
+IUZS389648MNEWKS71,Cointon,Camelli,Gresley,1965-04-01,Messerschmidt,19,Chengnan,21545
+FUMQ777730HNETRP20,Whitney,Carvil,Ros,1990-03-30,Shelley,6818,Junin,60808
+FUTV034461MNEKEQ63,Grata,Ferrier,Meagh,1964-07-21,Mayer,3,Porsgrunn,61489
+XENA585216HNEQRG06,Issy,Gryglewski,Gloucester,1988-09-19,Susan,41,Musa Khel Bazar,22431
+CUFY758468HTSEPS03,Paige,Savoury,Uzielli,1987-11-01,Portage,93,Akrata,83434
+AUJG556249MNEMXD82,Garfield,Tunnah,Halfhead,1972-03-29,Clyde Gallagher,44,Praia de Mira,20908
+TAXH588474MNELTD61,Nollie,Coaster,Sang,1985-04-26,Graceland,8,Vojnic,30001
+TIZY634500HYNVHI18,Maisey,Noller,Norssister,1973-11-26,Atwood,552,Pindare Mirim,49028
+RORD710658MNEBTM82,Alair,Storry,Hammer,1977-06-28,Katie,758,Tsaghveri,64195
+EUNV152433HNEALB17,Eugenio,Dunnion,Dunklee,1963-06-10,Ramsey,4110,Dipayal,50803
+MIZQ516357MNEIRE59,Ciro,Aron,Mutimer,1988-03-20,Garrison,79,Amanzi,87617
+DOPJ649771MZSFRO20,Llywellyn,Donaghie,Caris,1990-10-09,Vera,72,Pancevo,75422
+UIEM344024MNEIYN07,Staford,Beetlestone,Jaffrey,1979-08-22,Springs,803,Formosa,68332
+HUUA247353HZSRAD38,Mason,Mars,Newcombe,1970-07-11,Express,4,Elat,89743
+CIKD747674HZSMTW22,Lambert,Luckham,Van der Beek,1965-03-16,Maple,35,Kenitra,69351
+RURB635794MZSZVH93,Eberto,Arblaster,Inskipp,1968-05-08,Thompson,5,Yuncheng,96147
+CIPZ118727MNERGH91,Feliks,Gonthier,Foale,1972-02-17,Barnett,457,Ridder,44933
+YUHJ431741MVZJZU07,Andras,Rixon,James,1970-01-21,Farmco,520,Maagnas,87066
+NUKY279967MNEGFT22,Marsiella,Sevitt,Seaborne,1974-06-18,Stephen,1315,Banjar Delodrurung,85249
+OIKP469817MZSFWA46,Linell,Harnell,Milnes,1967-05-10,Shelley,88,San Pedro,17267
+NUWP703679MZSMVC07,Gage,Alldread,Anger,1992-02-15,Spaight,6,Montreal Est,96320
+OAMO447045HZSRNW54,Giana,Shearwood,Everex,1960-08-01,Cody,4,Perbaungan,34286
