@@ -1,0 +1,229 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Consultas y Resultados}
+\author{Sara Doris Montes Incin\\Emmanuel Cruz Hernández\\Luis Eduardo Martínez Hérnandez\\Fernando Elfego Aguilar Sánchez}
+\date{10 de Diciembre de 2018}
+
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\begin{document}
+
+\maketitle
+
+\section{Consultas}
+
+\begin{enumerate}[1.]
+  
+\item Conocer toda la información del vehículo que ha realizado más viajes.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C1.png}
+    \caption{Consulta 1.}
+  \end{figure}  
+  
+\item Obtener la información de los asociados que sean dueños de más de una unidad y las unidades a las que es dueño.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C2.png}
+    \caption{Consulta 2.}
+  \end{figure}
+  
+\item Obtener una lista de vehículos y la cantidad de multas que tienen o han tenido.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C3.png}
+    \caption{Consulta 3.}
+  \end{figure}
+  
+\item Conocer el promedio de pago de los alumnos que usan el servicio de la Asociación de Taxista “El Pumita”.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C4.png}
+    \caption{Consulta 4.}
+  \end{figure}
+  
+\item Viaje que ha tenido la menor distancia, así como la información de las unidades que recorrieron esa distancia.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C5.png}
+    \caption{Consulta 5.}
+  \end{figure}
+  
+\item Información de todos los clientes agrupados por su tipo, ordenados de forma ascendente por su apellido paterno, ascendente por su apellido materno y descendente por su nombre.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C6.png}
+    \caption{Consulta 6.}
+  \end{figure}
+  
+\item  Obtener una lista que nos permita saber cuántos alumnos, académicos y trabajadores usan el servicio de la Asociación de Taxista “El Pumita”.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C7.png}
+    \caption{Consulta 7.}
+  \end{figure}
+  
+\item Asociados que hayan ingresado a la asociación después del año 2005 y cuyo nombre comience con la letra ‘A’, ‘S’, ‘G’ y ‘R’.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C8.png}
+    \caption{Consulta 8.}
+  \end{figure}
+  
+\item Multas que se hayan realizado en en el 2017 a los vehículos que son marca ‘NISSAN’.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C9.png}
+    \caption{Consulta 9.}
+  \end{figure}
+  
+\item Número de clientes que hay por ciudad.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C10.png}
+    \caption{Consulta 10.}
+  \end{figure}
+  
+\item Obtener la información de todos los dueños que también son chóferes y tienen más de 25 años.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C11.png}
+    \caption{Consulta 11.}
+  \end{figure}
+  
+\item Número de multas que ha levantado cada agente de tránsito.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C12.png}
+    \caption{Consulta 12.}
+  \end{figure}
+  
+\item Una lista con todos los ingresos que ha obtenido cada asociado.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C13.png}
+    \caption{Consulta 13.}
+  \end{figure}
+  
+\item Cantidad de clientes que hay por facultad, instituto o unidad.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C14.png}
+    \caption{Consulta 14.}
+  \end{figure}
+  
+\item Cantidad de hombres y mujeres de los clientes que usan el servicio.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C15.png}
+    \caption{Consulta 15.}
+  \end{figure}
+  
+\item Obtener las edades de los asociados en orden ascendente. Si tienen la misma edad ordenar por apellido paterno de forma ascendente.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C16.png}
+    \caption{Consulta 16.}
+  \end{figure}
+  
+\item Información de los chóferes que conducen más de una unidad.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C17.png}
+    \caption{Consulta 17.}
+  \end{figure}
+  
+\item Obtener el número de viajes a los que se les aplicó 10$\%$, 14$\%$ y 20$\%$ de descuento.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C18.png}
+    \caption{Consulta 18.}
+  \end{figure}
+  
+\item Cantidad de vehículos que hay por marca y cuyo dueño haya ingresado después del 2014.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C19.png}
+    \caption{Consulta 19.}
+  \end{figure}
+  
+\item Obtener una lista con el número de clientes, dueños y chóferes.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C20.png}
+    \caption{Consulta 20.}
+  \end{figure}
+  
+\item Una lista con los asociados que ganan más que el promedio.
+
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C21.png}
+    \caption{Consulta 21.}
+  \end{figure}
+  
+\item Cantidad de asociados que ingresaron por año.
+  
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C22.png}
+    \caption{Consulta 22.}
+  \end{figure}
+
+\item Cantidad de artículos que se violaron al cometer una multa por año.
+  
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C23.png}
+    \caption{Consulta 23.}
+  \end{figure}
+
+\item Cantidad de viajes que se han realizado como destino dentro de CU de Estudiantes, Académicos y Trabajadores.
+ 
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C24.png}
+    \caption{Consulta 24.}
+  \end{figure}
+
+\item El número de viajes que se hicieron por año.
+  
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C25.png}
+    \caption{Consulta 25.}
+  \end{figure}
+
+\item Informacion de los montos que son mayor a 370 obtenidos a partir de los descuentos.
+  
+  \begin{figure} [h]
+    \centering
+    \includegraphics[width=1\textwidth]{C25.png}
+    \caption{Consulta 26.}
+  \end{figure}
+  
+\end{enumerate}
+
+\end{document}
