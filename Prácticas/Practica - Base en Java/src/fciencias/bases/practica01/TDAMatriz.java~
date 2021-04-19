@@ -1,0 +1,83 @@
+/**
+ * Interfaz de un TDAMatriz. Los TDAMatriz pueden 
+ * indicar el número de columnas y filas que hay, indicar el
+ * elemento en la posición M[i,j], modificar el elemento en la
+ * posición M[i,j], sumar, multiplicar con otro TDAMatriz, obtener
+ * la transpuesta y comprobar si dos TDAMatriz son iguales.
+ * @author Cruz Hernández Emmanuel.
+ * @version Agosto 2017.
+ */
+public interface TDAMatriz{
+
+    /**
+     * Regresa el número de renglones que hay en una matriz.
+     * @return la cantidad de renglones.
+     */
+    public int daRenglon();
+
+    /**
+     * Regresa el número de columnas que hay en una matriz.
+     * @return la cantidad de filas.
+     */
+    public int daColumna();
+
+    /**
+     * Regresa el elemento en la posición dada.
+     * @param i el reglon donde está el elemento a regresar.
+     * @param j la columna donde está el elemento a regresar.
+     * @return el elemento.
+     * @throws Exception si se pasan parámetros negativos o fuera
+     * del rango de la matriz.
+     */
+    public double daElemento(int i, int j) throws Exception;
+    
+    /**
+     * Modifica el elemento en la posición dada.
+     * @param i el renglon donde está el elemento a modificar.
+     * @param j la columna donde está el elemento a modificar.
+     * @param el nuevo valor.
+     * @throws Exception si se pasan parámetros negativos o fuera
+     * del rango de la matriz.
+     */
+    public void modifica(int i, int j, double nuevo) throws Exception;
+
+    /**
+     * Suma dos matrices.
+     * @param La matriz a sumar.
+     * @return una nueva matriz con los elementos sumados.
+     * @throws Exception si la matriz que le pasan no
+     * tiene la misma cantidad de reglones y/o columnas
+     */
+    public TDAMatriz suma(TDAMatriz sumando) throws Exception;
+
+    /**
+     * Multiplica una matriz por un escalar.
+     * @param el escalar a multiplicar con la matriz.
+     * @return una nueva matriz con los elementos multiplicados.
+     * @throws Exception si c=0.
+     */
+    public TDAMatriz multiplicaEscalar(int c) throws Exception;
+
+    /**
+     * Multiplica dos matrices.
+     * @param la matriz a multiplicar con otra matriz.
+     * @return una nueva matriz que resulta de la multiplicación
+     * de las dos matrices anteriores.
+     * @throws Exception si la multiplicación no se puede hacer.
+     */
+    public TDAMatriz multiplica(TDAMatriz mat) throws Exception;
+
+    /**
+     * Calcula la transpuesta de una matriz.
+     * @return una nueva matriz que resulta de calcular 
+     * la transpuesta.
+     */
+    public TDAMatriz daTranspuesta();
+    
+    /**
+     * Verifica si dos matrices son iguales.
+     * @param la matriz a comparar.
+     * @return true si las matrices son iguales, false en otro caso.
+     */
+    public boolean sonIguales(TDAMatriz mat);
+}

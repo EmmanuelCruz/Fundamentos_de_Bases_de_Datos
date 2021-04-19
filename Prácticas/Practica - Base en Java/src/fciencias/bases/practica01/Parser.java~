@@ -1,0 +1,79 @@
+package src.fciencias.edatos.practica01;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.Source;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.stream.StreamResult;
+import javax.xml.transform.Result;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import java.io.FileWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+/**
+ * Clase que hace la escritura de un archivo XML, en este caso 
+ * de una matriz usando DOM.
+ * @author Cruz Hernández Emmanuel.
+ * @version Agosto 2017.
+ */
+public class Parser{
+    
+    private Document documento;
+
+    public Parser() throws ParserConfigurationException{
+        DocumentBuilderFactory cons=DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder=cons.newDocumentBuilder();
+        documento=builder.newDocument();
+    }
+    
+    
+    public void creaDoc(double[][] m){
+        Element matriz=documento.createElement("matriz");
+        //Agrega como hijo directo de documento a matriz
+        documento.appendChild(matriz);
+        // Añade el número de renglones y columnas de la matriz como atributos.
+        matriz.setAttribute("renglones",""+m.length);
+        matriz.setAttribute("columnas",""+m[0].length);
+	for(int i=0;i<m.length;i++){
+	    for(int j=0;j<m[0].length;j++){
+		Element valor=documento.createElement("valor");
+		matriz.appendChild(valor);
+		valor.setAttribute("x",""+(i+1));
+		valor.setAttribute("y",""+(j+1));
+		valor.setAttribute("num",""+m[i][j]);
+	    }
+	}
+    }
+    
+    public void genera(String cual) throws TransformerConfigurationException,
+					  FileNotFoundException,
+					  IOException,
+					  TransformerException{
+	TransformerFactory fact=TransformerFactory.newInstance();
+	Transformer trans=fact.newTransformer();
+	
+	Source sour=new DOMSource(documento);
+	File file=new File(cual+".xml");
+	FileWriter fw=new FileWriter(file);
+	PrintWriter pw=new PrintWriter(fw);
+	Result result=new StreamResult(pw);
+	
+	trans.transform(sour,result);
+    }
+    
+    public static void main(String[] args) throws Exception{
+	Parser crea=new Parser();
+	double[][] prueba={{90,2},{3,4}};
+	crea.creaDoc(prueba);
+	crea.genera("");
+    }
+}

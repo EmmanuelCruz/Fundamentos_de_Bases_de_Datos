@@ -1,0 +1,81 @@
+package src.fciencias.edatos.practica01;
+
+import java.io.File;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.ParserConfigurationException;
+import org.xml.sax.SAXException;
+import java.io.IOException;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.w3c.dom.Node;
+import org.w3c.dom.Element;
+import org.w3c.dom.DOMException;
+
+/**
+ * Hace la lectura de un XML de una matriz usando DOM.
+ * @author Cruz Hernández Emmanuel.
+ * @version Agosto 2017.
+ */
+public class LectorDom{
+
+
+    
+    public double[][] lectura(int opcion) throws ParserConfigurationException,
+						 SAXException, IOException,
+						 DOMException{
+	File archivo=null;
+	switch(opcion){
+	case 1:
+	    File aux1=new File("A.xml");
+	    archivo=aux1;
+	    break;
+	case 2:
+	    File aux2=new File("B.xml");
+	    archivo=aux2;
+	    break;
+	case 3:
+	    File aux3=new File("C.xml");
+	    archivo=aux3;
+	    break;
+	case 4:
+	    File aux4=new File("D.xml");
+	    archivo=aux4;
+	    break;	    
+	}
+	DocumentBuilderFactory fab=
+	    DocumentBuilderFactory.newInstance();
+	DocumentBuilder cons=fab.newDocumentBuilder();
+	Document doc=cons.parse(archivo);
+	doc.normalizeDocument();
+	NodeList raiz=doc.getElementsByTagName("matriz");
+        Node nodo1=raiz.item(0);
+	Element tam=(Element)nodo1;
+	int renglones=Integer.valueOf(tam.getAttribute("renglones"));
+	int columnas=Integer.valueOf(tam.getAttribute("columnas"));
+	//System.out.println(renglones+" "+columnas);
+	double[][] matriz=new double[renglones][columnas];
+
+
+	NodeList valores=doc.getElementsByTagName("valor");
+	Node nodo2;
+	Element elemento;
+	int x;
+	int y;
+	double num;
+	for(int i=0;i<valores.getLength();i++){
+	    nodo2=valores.item(i);
+	    elemento=(Element)nodo2;
+	    x=Integer.valueOf(elemento.getAttribute("x"));
+	    y=Integer.valueOf(elemento.getAttribute("y"));
+	    num=Double.valueOf(elemento.getAttribute("num"));
+	    matriz[(x-1)][(y-1)]=num;
+	}
+	return matriz;
+    }
+    
+    public static void main(String[] args) throws Exception{
+	LectorDom prueba=new LectorDom();
+	prueba.lectura(1);
+    }
+}

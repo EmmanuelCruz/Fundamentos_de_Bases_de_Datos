@@ -1,0 +1,101 @@
+id_Rep_Preliminar,id_Estado,id_Distrito,id_Politico,siglas,fecha_registro,hora_registro,tipo_cargo,clave_elector,nombre_partido
+1,12,300,55,MI,2018-04-23,09:46:03,suplente,KTMQXP68121773H791,aliquet
+2,7,218,89,MD,2018-02-21,07:04:24,Propietario,AVUPKL97121901M172,morbi sem mauris laoreet
+3,11,2,24,ID,2018-09-15,1:13 AM,Propietario,ADPSLB86111880M332,imperdiet
+4,29,230,66,OK,2018-04-04,5:06 PM,Propietario,GLJBQZ94081959H019,ridiculus
+5,32,224,1,WY,2018-04-06,6:44 AM,suplente,JCKIYE92091937H155,nisi vulputate nonummy maecenas tincidunt
+6,26,41,25,IN,2018-03-19,10:36 AM,Propietario,OFTXKM99110979H611,et
+7,15,116,41,NV,2018-03-17,6:05 AM,Propietario,FEOVXG66122779M387,id turpis integer aliquet
+8,30,70,19,MO,2017-11-03,11:46 PM,Propietario,IWURYH71100779H130,non mattis
+9,20,271,41,MI,2018-01-19,5:56 AM,suplente,YZMUTC81121732H229,vel nulla
+10,29,65,88,CA,2017-10-25,3:52 AM,suplente,UVMOWX98110989H003,in magna bibendum imperdiet nullam
+11,24,126,4,IN,2018-03-09,3:14 AM,suplente,RWZYPU65120966M653,posuere cubilia curae nulla
+12,11,200,70,FL,2018-02-07,12:55 AM,Propietario,PGIDMX88111970M857,sed
+13,20,16,89,KY,2017-11-19,3:40 AM,suplente,IJSODV96122779M436,in sagittis dui vel nisl
+14,30,216,81,NY,2018-09-24,4:44 PM,Propietario,ZAJTFO72122949H509,dui
+15,3,199,85,AL,2018-04-02,12:50 AM,Propietario,ENGBDA85071950M654,porttitor pede justo eu
+16,23,56,55,KY,2018-03-06,4:42 AM,suplente,FECATB94070945M843,lacinia eget tincidunt eget tempus
+17,23,244,43,KY,2017-12-11,8:12 PM,Propietario,DWCUFO89120779H549,luctus ultricies
+18,9,50,46,TX,2018-07-31,10:16 AM,suplente,YJTQON97101944H045,dapibus duis
+19,28,144,84,FL,2018-02-02,12:05 AM,suplente,KSHTZM91122824H729,scelerisque quam
+20,18,290,59,CO,2018-09-20,5:58 AM,Propietario,GVMBCU65092731H192,ultrices erat tortor sollicitudin mi
+21,14,250,16,AZ,2018-08-06,3:58 PM,Propietario,NCPEFD93110608M740,nisl venenatis lacinia aenean
+22,3,260,96,PA,2018-09-26,4:08 PM,Propietario,WJCRTZ94121761H018,et ultrices posuere cubilia curae
+23,27,104,31,OH,2018-05-09,3:28 AM,suplente,MSNILR99122951M533,primis in faucibus orci
+24,19,19,1,TX,2018-08-18,3:23 PM,Propietario,OUXNYC90112994M784,aliquam lacus morbi quis
+25,17,64,80,TX,2018-09-03,8:05 AM,Propietario,LYBFKA95122833M496,dolor sit amet consectetuer
+26,19,40,7,CA,2018-06-13,5:59 PM,Propietario,ORWSIF84102973H193,in felis eu sapien cursus
+27,25,186,59,OH,2017-11-26,2:58 AM,suplente,INLSVC80100938M134,praesent lectus vestibulum quam
+28,16,11,29,NY,2018-01-09,9:54 PM,Propietario,VAKTSY80121917H117,vestibulum
+29,31,32,87,MO,2018-03-03,1:48 AM,Propietario,EBKAHO98091918H927,posuere
+30,28,195,71,NC,2018-04-18,5:44 PM,suplente,UYRNHS89040723M742,suspendisse potenti cras in purus
+31,10,523,82,MD,2018-08-26,3:22 AM,Propietario,XEKCGB93122672M449,parturient montes
+32,11,133,39,HI,2018-01-04,8:47 PM,Propietario,TVYUON72122975M849,sit amet turpis
+33,32,890,38,TX,2018-02-20,10:15 PM,Propietario,FYDIJH76112894M882,interdum eu tincidunt in leo
+34,25,627,73,NE,2018-03-04,2:24 PM,Propietario,IDYXSC79122867H525,semper porta volutpat
+35,11,17,41,CA,2017-12-11,9:03 PM,Propietario,JHOICV96110938H776,justo aliquam quis turpis eget
+36,26,59,93,CO,2018-05-22,3:50 AM,suplente,PJSBXN98112578H563,quam pede lobortis ligula sit
+37,12,444,34,TX,2018-09-09,5:33 PM,suplente,VUXRSM61122984M274,cubilia curae donec pharetra
+38,5,555,77,NJ,2018-04-26,4:14 PM,Propietario,LVUEAC65070686H227,habitasse platea dictumst aliquam
+39,25,666,76,MI,2018-08-21,6:22 PM,suplente,CQDPZX93120595H816,congue
+40,25,777,78,PA,2018-05-06,4:48 PM,Propietario,PYFCTL81102995M591,nonummy integer non velit
+41,31,888,92,CA,2018-02-11,7:14 PM,Propietario,AIRBNU98122985M359,aliquam lacus
+42,18,230,93,TX,2018-05-31,10:58 AM,suplente,LSYOIV66112939M102,metus vitae ipsum aliquam
+43,27,21,11,WI,2017-10-23,1:46 PM,suplente,YPSZKN98092844M043,rutrum at lorem
+44,20,183,41,CO,2018-08-30,7:05 AM,Propietario,OVPHKQ98122863M078,condimentum
+45,1,28,71,TX,2018-08-24,4:39 AM,suplente,OTBUPA92122998H226,id mauris vulputate
+46,10,51,86,CO,2018-04-02,4:35 AM,suplente,UEFZOP84081905H950,est lacinia nisi
+47,29,69,76,IL,2018-06-21,2:17 AM,suplente,CKQIWF90120641M175,est
+48,13,728,61,CA,2018-01-10,1:46 PM,Propietario,LDAIZM75060821H738,at lorem
+49,32,8,13,MI,2018-08-03,4:18 PM,suplente,ABDQZK73112964H626,duis at velit eu est
+50,8,166,94,MD,2018-03-30,10:42 AM,suplente,DGMFKX91122818H258,tortor risus
+51,14,65,71,FL,2018-01-02,3:47 AM,suplente,NCQLBR94120664M134,scelerisque quam turpis
+52,20,144,45,PA,2018-04-10,9:46 PM,Propietario,AWCPVI99082984H103,tortor
+53,10,203,60,AL,2018-05-17,8:10 PM,suplente,OVIDZG87121991M993,odio elementum eu interdum
+54,9,270,9,CA,2018-06-28,5:27 PM,Propietario,RSAFDI95101723M707,tempus
+55,12,195,10,OK,2018-01-05,10:17 AM,suplente,UTLDOW61121904H533,consequat
+56,4,127,34,VA,2018-05-19,10:15 AM,Propietario,OPEDSM79120774M073,arcu sed augue
+57,22,28,42,UT,2018-08-20,4:37 PM,suplente,SKMAFU84102994H575,condimentum id luctus
+58,6,193,15,OK,2018-10-14,5:47 PM,suplente,ANOTPH92102865H595,convallis nulla neque
+59,20,154,20,CO,2018-04-04,6:18 AM,suplente,DNYZWS91112548M059,vivamus vestibulum sagittis sapien
+60,7,187,81,FL,2018-01-16,10:37 PM,Propietario,MDAOCN80102929M159,ante ipsum primis in
+61,22,51,6,LA,2018-06-27,7:41 AM,Propietario,SGKCDX71081945H299,mauris morbi
+62,32,119,89,UT,2018-05-20,4:47 PM,suplente,LJEUWI97122926M528,sit amet consectetuer adipiscing
+63,19,20,59,NY,2018-07-22,6:08 AM,Propietario,DYZHKN67120928M788,sit amet justo morbi ut
+64,32,179,33,CA,2018-06-09,4:38 PM,suplente,TWBNKS73122645H464,suscipit nulla
+65,15,257,74,MT,2018-06-23,5:01 AM,Propietario,PJLAYM90122954H082,odio elementum eu interdum
+66,26,108,88,DC,2018-10-07,10:14 PM,Propietario,GMUSCJ93100941H534,enim sit amet
+67,8,267,33,FL,2018-04-20,2:55 PM,Propietario,GLADRF92120690H782,sodales
+68,3,220,1,FL,2018-07-05,11:33 AM,suplente,XNYCIB96122129H762,nisi volutpat eleifend donec ut
+69,13,114,57,MA,2017-11-26,7:06 PM,suplente,RWKCAS88122910M663,pretium iaculis
+70,3,281,3,NY,2018-03-11,1:49 PM,suplente,OLAUDY95112923M904,mi in porttitor pede
+71,5,286,40,IL,2018-05-15,9:37 AM,Propietario,XCWFOL80122916H512,interdum in ante vestibulum
+72,25,156,35,AZ,2018-10-07,10:25 AM,suplente,SAMYVH93121822H211,in hac habitasse
+73,11,107,60,NY,2017-11-22,3:37 PM,suplente,LDMRZF84092728M081,pede morbi
+74,20,245,66,DC,2017-12-27,5:09 PM,Propietario,ECDJLK86120942H387,nulla quisque arcu
+75,15,123,11,CA,2018-08-17,12:37 AM,Propietario,YMBIKT85120946H416,phasellus
+76,1,76,81,WI,2018-05-15,12:54 AM,suplente,EUFYXN93122801H706,rutrum ac lobortis
+77,21,301,27,TX,2018-02-15,5:06 PM,suplente,TFMOAL98111910M522,eget eleifend luctus ultricies
+78,20,30,89,FL,2018-06-17,2:35 AM,suplente,CQJEAV98122745H993,quis turpis
+79,4,243,76,MI,2018-04-16,9:47 PM,Propietario,NFBJCZ91092908M999,congue elementum in hac habitasse
+80,20,274,95,TX,2018-03-20,11:12 PM,suplente,OGRPMX99122422H022,feugiat non pretium
+81,31,2,96,GA,2018-09-02,3:07 PM,suplente,GLKQOP90112936H710,nonummy maecenas tincidunt lacus at
+82,12,88,6,TX,2018-08-15,1:04 AM,suplente,BUIGNH89112996H542,nulla neque libero
+83,24,125,72,TX,2018-01-04,11:02 AM,suplente,QZHWFK60112928H196,id mauris vulputate
+84,13,178,50,NV,2017-11-13,4:25 AM,suplente,ULDYON61122972H133,ullamcorper augue
+85,23,191,90,OH,2018-09-18,8:38 AM,Propietario,LEBQMX93081975M657,lobortis vel dapibus
+86,8,86,42,CO,2017-11-20,7:31 AM,Propietario,IYCJNV99122920M708,cubilia curae duis faucibus accumsan
+87,8,215,12,CA,2018-01-18,1:37 AM,suplente,JBUSYA93101942H336,bibendum morbi non
+88,6,140,44,GA,2018-05-14,2:59 AM,suplente,XYFTPQ92122112M307,etiam pretium iaculis justo in
+89,14,172,7,MD,2018-04-15,6:09 AM,Propietario,TBGXHL99121966M978,maecenas tristique est
+90,32,215,94,LA,2017-10-31,11:34 AM,suplente,IVEUMF95081913H936,primis
+91,21,982,9,AZ,2018-01-16,2:29 PM,Propietario,YJFRZL91122922M224,lacus at turpis donec posuere
+92,19,829,24,TX,2017-11-22,3:41 AM,suplente,PFOAMY86121746H285,nisi nam ultrices libero
+93,32,902,100,VA,2018-06-24,7:11 AM,Propietario,TOUFIW66120911M553,vel enim
+94,11,224,37,GA,2018-02-21,9:33 AM,suplente,THPQFY92081789H599,nibh
+95,24,124,60,TN,2018-08-13,7:55 AM,suplente,KDMQBA96122758M163,dis parturient montes nascetur ridiculus
+96,12,83,28,IA,2017-11-29,11:26 PM,Propietario,KWBSVH80110687M326,parturient montes nascetur ridiculus
+97,9,147,72,MI,2018-03-02,10:46 AM,Propietario,TYJPEI80100798M193,blandit non interdum in
+98,17,94,40,FL,2018-06-30,9:46 AM,Propietario,LIEDMQ93121756M181,laoreet
+99,3,298,70,LA,2018-02-19,6:53 PM,Propietario,ORZFBE92101827H733,justo in hac
+100,7,103,48,FL,2018-09-15,12:47 PM,Propietario,AFZKEX87122915H416,curabitur

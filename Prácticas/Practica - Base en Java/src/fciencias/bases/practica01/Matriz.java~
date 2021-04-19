@@ -1,0 +1,906 @@
+package src.fciencias.edatos.practica01;
+
+import java.util.Scanner;
+
+/**
+ * Clase que implementa la interfaz TDAMatriz.
+ * @author Cruz Hernández Emmanuel. 314272588.
+ * @version Agosto 2017.
+ */
+public class Matriz implements TDAMatriz{
+    
+    /** Renglones que hay en la matriz. */
+    private int renglones;
+    
+    /** Columnas que hay en la matriz. */
+    private int columnas;
+    
+    /** Matriz. */
+    private double matriz[][];
+
+    /**
+     * Construye una nueva matriz de 2x2. Donde todos sus 
+     * elemento son 1.
+     */
+    public Matriz(){
+	double[][] aux={{1.0,1.0},{1.0,1.0}};
+	matriz=aux;
+	renglones=matriz.length;
+	columnas=matriz[0].length;
+    }
+    
+    /**
+     * Construye una nueva matriz.
+     * @param un arreglo de doubles que será la matriz a asignar..
+     */
+    public Matriz(double[][] nuevo){
+	renglones=nuevo.length;
+	columnas=nuevo[0].length;
+	matriz=new double[renglones][columnas];
+	for(int i=0;i<nuevo.length;i++){
+	    for(int j=0;j<nuevo[i].length;j++){
+		matriz[i][j]=nuevo[i][j];
+	    }
+	}
+    }
+    
+    @Override
+    public int daRenglon(){
+	return renglones;
+    }
+
+    @Override
+    public int daColumna(){
+	return columnas;
+    }
+
+    @Override
+    public double daElemento(int i, int j) throws Exception{
+	if(i<0 || j<0)
+	    throw new Exception("Número inválido (negativo)");
+	if(i>renglones || j>columnas)
+	    throw new Exception("Número fuera de rango");
+	return matriz[i-1][j-1];
+    }
+    
+    @Override
+    public void modifica(int i, int j, double nuevo) throws Exception{
+	if(i<0 || j<0)
+	    throw new Exception("Número inválido (negativo)");
+	if(i>renglones || j>columnas)
+	    throw new Exception("Número fuera de rango");
+	matriz[i-1][j-1]=nuevo;
+    }
+
+    @Override
+    public TDAMatriz suma(TDAMatriz sumando) throws Exception{
+	Matriz aux=(Matriz)sumando;
+	if(renglones!=aux.renglones||
+	   columnas!=aux.columnas)
+	    throw new Exception("Tamaño de matriz inválido");
+	double[][] nueva=new double[renglones][columnas];
+	for(int i=0;i<renglones;i++){
+	    for(int j=0;j<columnas;j++){
+		nueva[i][j]=matriz[i][j]+aux.matriz[i][j];
+	    }
+	}
+	Matriz sumada=new Matriz(nueva);
+	return sumada;
+    }
+    
+    @Override
+    public TDAMatriz multiplicaEscalar(int c) throws Exception{
+        if(c==0)
+	    throw new Exception("No se puede multiplicar por 0");
+	double[][] arrMult=new double[renglones][columnas];
+
+	for(int i=0;i<renglones;i++){
+	    for(int j=0;j<columnas;j++){
+		arrMult[i][j]=matriz[i][j]*c;
+	    }
+	}
+	Matriz multiplicada=new Matriz(arrMult);
+	return multiplicada;
+    }
+
+    /**
+     * Este método es auxiliar para poder calcularla suma de la 
+     * multiplicacion de un renglon con la columna de dos matrices.
+     */
+    private double sumaRenYCol(int r, int c, TDAMatriz m){
+	Matriz aux=(Matriz)m;
+	double contador=0.0;
+	for(int i=0;i<columnas;i++){
+	    contador+=matriz[r][i]*aux.matriz[i][c];
+	}
+	return contador;
+    }
+    
+    @Override
+    public TDAMatriz multiplica(TDAMatriz mat) throws Exception{
+	Matriz aux=(Matriz)mat;
+	if(columnas!=aux.renglones)
+	    throw new Exception("Multiplicación inválida");
+	double[][] result=new double[renglones][aux.columnas];
+	for(int i=0;i<renglones;i++){
+	    for(int j=0;j<aux.columnas;j++){
+		result[i][j]=sumaRenYCol(i,j,aux);
+	    }
+	}
+	Matriz multiplicada=new Matriz(result);
+	return multiplicada;
+    }
+
+    @Override
+    public TDAMatriz daTranspuesta(){
+        double[][] trans=new double[columnas][renglones];
+	for(int i=0;i<columnas;i++){
+	    for(int j=0;j<renglones;j++){
+		trans[i][j]=matriz[j][i];
+	    }
+	}
+	Matriz transpuesta=new Matriz(trans);
+	return transpuesta;
+    }
+    
+    @Override
+    public boolean sonIguales(TDAMatriz mat){
+	Matriz aux=(Matriz)mat;
+	for(int i=0;i<renglones;i++){
+	    for(int j=0;j<columnas;j++){
+		if(aux.matriz[i][j]!=this.matriz[i][j])
+		    return false;
+	    }
+	}
+	return true;
+    }
+
+    /**
+     * Este es un método para poder visualizar los elementos de las matrices.
+     */
+    private static void muestra(TDAMatriz m){
+	Matriz aux=(Matriz)m;
+	String fin="";
+	for(int i=0;i<aux.renglones;i++){
+	    fin+="(";
+	    for(int j=0;j<aux.columnas;j++){
+		fin+=aux.matriz[i][j]+(j==(aux.columnas-1)?"":", ");
+	    }
+	    fin+=")\n";
+	}
+	System.out.println("\n"+fin+"\n");
+    }
+
+    /**
+     * Este método auxiliar permite elegir entre la lectura de un
+     * XML que contiene los elementos de una matriz.
+     * @param opcion la "clave" de la matriz que se lee.
+     * @return un nuevo TDAMatriz que es la matriz leida del XML.
+     * @throws Exception si algo sale mal con la lectura.
+     */
+    private static TDAMatriz elige(int opcion) throws Exception{
+	LectorDom lector=new LectorDom();
+	double[][] matriz=null;
+	switch(opcion){
+	case 1:
+	    matriz=lector.lectura(1);
+	    break;
+	case 2:
+	    matriz=lector.lectura(2);
+	    break;
+	case 3:
+	    matriz=lector.lectura(3);
+	    break;
+	case 4:
+	    matriz=lector.lectura(4);
+	    break;
+	default:
+	    System.out.println("\nPor omisión se elige "+
+			       "la matriz A.\n");
+	    matriz=lector.lectura(1);
+	}
+	Matriz elegida=new Matriz(matriz);
+	return elegida;
+    }
+    
+    /**
+     * Menú que da las opciones de usar los métodos de una Matriz.
+     */
+    private static void menu(){
+	Parser pars=null;
+	try{
+	    Parser parsaux=new Parser();
+	    pars=parsaux;
+	}catch(Exception e){}
+	Scanner sc=new Scanner(System.in);
+	System.out.print("[1] Indicar el número de renglones de "+
+			 "una matriz.\n"+
+			 "[2] Indicar el número de columnas de "+
+			 "una matriz.\n"+
+			 "[3] Indicar el elemento en la posición"+
+			 "M[i,j].\n"+
+			 "[4] Modificar el elemento en la posición"+
+			 " M[i,j].\n"+
+			 "[5] Sumar dos matrices.\n"+
+			 "[6] Multiplicar una matriz por un"+
+			 " escalar.\n"+
+			 "[7] Multiplicar dos matrices.\n"+
+			 "[8] Obtener la transpuesta de una matriz.\n"+
+			 "[9] Comprobar si dos matrices son iguales.\n"+
+			 "[10] Salir.\n"+
+			 "Elige una opción: ");
+	int opcion=0;
+	try{
+	    int aux=sc.nextInt();
+	    opcion=aux;
+	}catch(Exception e){
+	    System.out.println("\nOpción inválida\n");
+	    menu();
+	    return;
+	}
+	
+	
+	switch(opcion){
+	case 1:
+	    System.out.println("\nIndica la matriz de la que quieres conocer el número de renglones.");
+	    try{
+		System.out.print("[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige una matriz para llevar a cabo la operación: ");
+		int op1=0;
+		try{
+		    int aux=sc.nextInt();
+		    op1=aux;
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida."+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    muestra(elegida);
+		    System.out.println("La matriz tiene "+elegida.daRenglon()+
+				       " renglones.\n");
+		    menu();
+		    return;
+		}
+		TDAMatriz m1=(Matriz)elige(op1);
+		muestra(m1);
+		System.out.println("La matriz tiene "+m1.daRenglon()+
+				   " renglones.\n");
+	    }catch(Exception e){
+		System.out.println("\nAlgo salió mal.\n");
+		menu();
+		return;
+	    }
+	    menu();
+	    return;
+	    
+	    
+	case 2:
+	    System.out.println("\nIndica la matriz de la que quieres conocer el número de columnas.");
+	    try{
+		System.out.print("[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige una matriz para llevar a cabo la operación: ");
+		int op2=0;
+		try{
+		    int aux=sc.nextInt();
+		    op2=aux;
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida."+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    muestra(elegida);
+		    System.out.println("La matriz tiene "+elegida.daRenglon()+
+				       " renglones.\n");
+		    menu();
+		    return;
+		}
+		TDAMatriz m2=(Matriz)elige(op2);
+		muestra(m2);
+		System.out.println("La matriz tiene "+m2.daColumna()+
+				   " Columnas.\n");
+	    }catch(Exception e){
+		System.out.println("\nAlgo salió mal.\n");
+		menu();
+		return;
+	    }
+	    menu();
+	    return;
+	    
+	    
+	case 3:
+	    System.out.print("\nIngresa el número de renglón: ");
+	    int ren3=0;
+	    try{
+		int renEl3=sc.nextInt();
+		ren3=renEl3;
+	    }catch(Exception e){
+		System.out.println("\nIngresaste dato no compatible.\n");
+		menu();
+		return;
+	    }
+	    System.out.print("\nIngresa el número de columna: ");
+	    int col3=0;
+	    try{
+		int colEl3=sc.nextInt();
+		col3=colEl3;
+	    }catch(Exception e){
+		System.out.println("\nIngresaste dato no compatible.\n");
+		menu();
+		return;
+	    }
+	    try{
+		System.out.print("[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige una matriz para llevar a cabo la operación: ");
+		int op3=0;
+		try{
+		    int aux=sc.nextInt();
+		    op3=aux;
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida."+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    muestra(elegida);
+		    System.out.println("El valor en la posición M["+
+				       ren3+","+col3+"] es: "+
+				       elegida.daElemento(ren3,col3)+"\n");
+		    menu();
+		    return;
+		}
+		TDAMatriz m3=(Matriz)elige(op3);
+		muestra(m3);
+		System.out.println("El valor en la posición M["+
+				   ren3+","+col3+"] es: "+
+				   m3.daElemento(ren3,col3)+"\n");
+	    }catch(Exception e){
+		System.out.println("\nEsa posición no existe.\n");
+	    }
+	    menu();
+	    return;
+
+	    
+	case 4:
+	    System.out.print("\nIngresa el número de renglón: ");
+	    int ren4=0;
+	    try{
+		int renEl4=sc.nextInt();
+		ren4=renEl4;
+	    }catch(Exception e){
+		System.out.println("\nIngresaste dato no compatible.\n");
+		menu();
+		return;
+	    }
+	    System.out.print("\nIngresa el número de columna: ");
+	    int col4=0;
+	    try{
+		int colEl4=sc.nextInt();
+		col4=colEl4;
+	    }catch(Exception e){
+		System.out.println("\nIngresaste dato no compatible.\n");
+		menu();
+		return;
+	    }
+	    int nuevoValor=0;
+	    System.out.print("\nIngresa el nuevo valor: ");
+	    try{
+		int valEl4=sc.nextInt();
+		nuevoValor=valEl4;
+	    }catch(Exception e){
+		System.out.println("\nIngresaste dato no compatible.\n");
+		menu();
+		return;
+	    }
+	    String cual4="";
+	    Matriz m4=null;
+	    try{
+		System.out.print("[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige una matriz para llevar a cabo la operación: ");
+		int op4=0;
+		try{
+		    int aux=sc.nextInt();
+		    op4=aux;
+		    switch(op4){
+		    case 1:
+			cual4+="A";
+			break;
+		    case 2:
+			cual4+="B";
+			break;
+		    case 3:
+			cual4+="C";
+			break;
+		    case 4:
+			cual4+="D";
+			break;
+		    default:
+			cual4="A";
+			System.out.println("\nOpción inválida. "+
+					   "Por omisión se elige matriz A.\n");
+			LectorDom lector=new LectorDom();
+			double[][] matriz;
+			matriz=lector.lectura(1);
+			Matriz elegida=new Matriz(matriz);
+			m4=elegida;
+		    }
+		    m4=(Matriz)elige(op4);
+		    muestra(m4);
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida."+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m4=(Matriz)elige(1);
+		}
+	        m4.modifica(ren4,col4,nuevoValor);
+		System.out.println("La matriz modificada es: ");
+		muestra(m4);
+		pars.creaDoc(m4.matriz);
+		pars.genera(cual4+"Modificada");
+	    }catch(Exception e){
+		System.out.println("\nEsa posición no existe.\n");
+	    }
+	    menu();
+	    return;
+
+	    
+	case 5:
+	    try{
+		System.out.print("\n[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige una matriz para llevar a cabo la operación: ");
+		int op51=0;
+		Matriz m51=null;
+		Matriz m52=null;
+		String cual51="";
+		String cual52="";
+		try{
+		    int aux=sc.nextInt();
+		    op51=aux;
+		    switch(op51){
+		    case 1:
+			cual51+="A";
+			break;
+		    case 2:
+			cual51+="B";
+			break;
+		    case 3:
+			cual51+="C";
+			break;
+		    case 4:
+			cual51+="D";
+			break;
+		    default:
+			cual51="A";
+			System.out.println("\nOpción inválida. "+
+					   "Por omisión se elige matriz A.\n");
+			LectorDom lector=new LectorDom();
+			double[][] matriz;
+			matriz=lector.lectura(1);
+			Matriz elegida=new Matriz(matriz);
+			m51=elegida;
+		    }
+		    m51=(Matriz)elige(op51);
+		    muestra(m51);
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida. "+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m51=elegida;
+		    muestra(m51);
+		}
+		System.out.print("[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige otra matriz para llevar a cabo la operación: ");
+		int op52=0;
+		try{
+		    int aux=sc.nextInt();
+		    op52=aux;
+		    switch(op52){
+		    case 1:
+			cual52+="A";
+			break;
+		    case 2:
+			cual52+="B";
+			break;
+		    case 3:
+			cual52+="C";
+			break;
+		    case 4:
+			cual52+="D";
+			break;
+		    default:
+			cual52="A";
+			System.out.println("\nOpción inválida. "+
+					   "Por omisión se elige matriz A.\n");
+			LectorDom lector=new LectorDom();
+			double[][] matriz;
+			matriz=lector.lectura(1);
+			Matriz elegida=new Matriz(matriz);
+			m52=elegida;
+			muestra(m52);
+		    }
+		    m52=(Matriz)elige(op52);
+		    muestra(m52);
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida."+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m52=elegida;
+		    muestra(m52);
+		}
+		Matriz sumada=(Matriz)m51.suma(m52);
+		System.out.println("La matriz sumada es: ");
+		muestra(sumada);
+		pars.creaDoc(sumada.matriz);
+		pars.genera(cual51+"+"+cual52);
+	    }catch(Exception e){
+		System.out.println("\nAlgo salió mal\n");
+		menu();
+		return;
+	    }
+	    menu();
+	    return;
+	    
+	case 6:
+	    System.out.print("\n[1] Matriz A.\n"+
+			     "[2] Matriz B.\n"+
+			     "[3] Matriz C.\n"+
+			     "[4] Matriz D.\n"+
+			     "Elige una matriz para llevar a cabo la operación: ");
+	    int op6=0;
+	    Matriz m6=null;
+	    String cual6="";
+	    int escalar=0;
+	    try{
+		int aux=sc.nextInt();
+		op6=aux;
+		switch(op6){
+		case 1:
+		    cual6+="A";
+		    break;
+		case 2:
+		    cual6+="B";
+		    break;
+		case 3:
+		    cual6+="C";
+		    break;
+		case 4:
+		    cual6+="D";
+		    break;
+		default:
+		    cual6="A";
+		    System.out.println("\nOpción inválida. "+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m6=elegida;
+		}
+		m6=(Matriz)elige(op6);
+		muestra(m6);
+	    }catch(Exception e){
+		System.out.println("\nAlgo salió mal\n");
+	    }
+	    try{
+		System.out.print("\nIngresa el escalar para multiplicar la matriz: ");
+		int c=sc.nextInt();
+		escalar=c;
+		Matriz multEsc=(Matriz)m6.multiplicaEscalar(escalar);
+		muestra(multEsc);
+		pars.creaDoc(multEsc.matriz);
+		pars.genera((cual6+"*"+escalar));
+	    }catch(Exception e){
+		System.out.println("\nError al ingreso de datos\n");
+	    }
+	    menu();
+	    return;
+	    
+	case 7:
+	    try{
+		System.out.print("\n[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige una matriz para llevar a cabo la operación: ");
+		int op71=0;
+		Matriz m71=null;
+		Matriz m72=null;
+		String cual71="";
+		String cual72="";
+		try{
+		    int aux=sc.nextInt();
+		    op71=aux;
+		    switch(op71){
+		    case 1:
+			cual71+="A";
+			break;
+		    case 2:
+			cual71+="B";
+			break;
+		    case 3:
+			cual71+="C";
+			break;
+		    case 4:
+			cual71+="D";
+			break;
+		    default:
+			cual71="A";
+			System.out.println("\nOpción inválida. "+
+					   "Por omisión se elige matriz A.\n");
+			LectorDom lector=new LectorDom();
+			double[][] matriz;
+			matriz=lector.lectura(1);
+			Matriz elegida=new Matriz(matriz);
+			m71=elegida;
+		    }
+		    m71=(Matriz)elige(op71);
+		    muestra(m71);
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida. "+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m71=elegida;
+		    muestra(m71);
+		}
+		System.out.print("[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige otra matriz para llevar a cabo la operación: ");
+		int op72=0;
+		try{
+		    int aux=sc.nextInt();
+		    op72=aux;
+		    switch(op72){
+		    case 1:
+			cual72+="A";
+			break;
+		    case 2:
+			cual72+="B";
+			break;
+		    case 3:
+			cual72+="C";
+			break;
+		    case 4:
+			cual72+="D";
+			break;
+		    default:
+			cual72="A";
+			System.out.println("\nOpción inválida. "+
+					   "Por omisión se elige matriz A.\n");
+			LectorDom lector=new LectorDom();
+			double[][] matriz;
+			matriz=lector.lectura(1);
+			Matriz elegida=new Matriz(matriz);
+			m72=elegida;
+		    }
+		    m72=(Matriz)elige(op72);
+		    muestra(m72);
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida."+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m72=elegida;
+		    muestra(m72);
+		}
+		Matriz multiplicada=(Matriz)m71.multiplica(m72);
+		muestra(multiplicada);
+		pars.creaDoc(multiplicada.matriz);
+		pars.genera(cual71+"*"+cual72);
+	    }catch(Exception e){
+		System.out.println("\nAlgo salió mal\n");
+		menu();
+		return;
+	    }
+	    menu();
+	    return;
+	    
+	case 8:
+	    System.out.print("\n[1] Matriz A.\n"+
+			     "[2] Matriz B.\n"+
+			     "[3] Matriz C.\n"+
+			     "[4] Matriz D.\n"+
+			     "Elige una matriz para llevar a cabo la operación: ");
+	    int op8=0;
+	    Matriz m8=null;
+	    String cual8="";
+	    try{
+		int aux=sc.nextInt();
+		op8=aux;
+		switch(op8){
+		case 1:
+		    cual8+="A";
+		    break;
+		case 2:
+		    cual8+="B";
+		    break;
+		case 3:
+		    cual8+="C";
+		    break;
+		case 4:
+		    cual8+="D";
+		    break;
+		default:
+		    cual8="A";
+		    System.out.println("\nOpción inválida. "+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m8=elegida;
+		    muestra(m8);
+		}
+		m8=(Matriz)elige(op8);
+		muestra(m8);
+		System.out.print("\nLa transpuesta de la matriz: ");
+		Matriz trans=(Matriz)m8.daTranspuesta();
+		muestra(trans);
+		pars.creaDoc(trans.matriz);
+		pars.genera((cual8+"Transpuesta"));
+	    }catch(Exception e){
+		System.out.println("\nAlgo salió mal\n");
+	    } 
+	    menu();
+	    return;
+
+	    
+	case 9:
+	    try{
+		System.out.print("\n[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige una matriz para llevar a cabo la operación: ");
+		int op91=0;
+		Matriz m91=null;
+		Matriz m92=null;
+		String cual91="";
+		String cual92="";
+		try{
+		    int aux=sc.nextInt();
+		    op91=aux;
+		    switch(op91){
+		    case 1:
+			cual91+="A";
+			break;
+		    case 2:
+			cual91+="B";
+			break;
+		    case 3:
+			cual91+="C";
+			break;
+		    case 4:
+			cual91+="D";
+			break;
+		    default:
+			cual91="A";
+			System.out.println("\nOpción inválida. "+
+					   "Por omisión se elige matriz A.\n");
+			LectorDom lector=new LectorDom();
+			double[][] matriz;
+			matriz=lector.lectura(1);
+			Matriz elegida=new Matriz(matriz);
+			m91=elegida;
+		    }
+		    m91=(Matriz)elige(op91);
+		    muestra(m91);
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida. "+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m91=elegida;
+		    muestra(m91);
+		}
+		System.out.print("[1] Matriz A.\n"+
+				 "[2] Matriz B.\n"+
+				 "[3] Matriz C.\n"+
+				 "[4] Matriz D.\n"+
+				 "Elige otra matriz para llevar a cabo la operación: ");
+		int op92=0;
+		try{
+		    int aux=sc.nextInt();
+		    op92=aux;
+		    switch(op92){
+		    case 1:
+			cual92+="A";
+			break;
+		    case 2:
+			cual92+="B";
+			break;
+		    case 3:
+			cual92+="C";
+			break;
+		    case 4:
+			cual92+="D";
+			break;
+		    default:
+			cual92="A";
+			System.out.println("\nOpción inválida. "+
+					   "Por omisión se elige matriz A.\n");
+			LectorDom lector=new LectorDom();
+			double[][] matriz;
+			matriz=lector.lectura(1);
+			Matriz elegida=new Matriz(matriz);
+			m92=elegida;
+		    }
+		    m92=(Matriz)elige(op92);
+		    muestra(m92);
+		}catch(Exception e){
+		    System.out.println("\nOpción inválida."+
+				       "Por omisión se elige matriz A.\n");
+		    LectorDom lector=new LectorDom();
+		    double[][] matriz;
+		    matriz=lector.lectura(1);
+		    Matriz elegida=new Matriz(matriz);
+		    m92=elegida;
+		    muestra(m92);
+		}
+		System.out.println("\nLas matrices "+cual91+" y "+cual92+
+				 " son iguales: "+m91.sonIguales(m92)+"\n");
+	    }catch(Exception e){
+		System.out.println("\nAlgo salió mal\n");
+		menu();
+		return;
+	    }
+	    menu();
+	    return;
+	    
+	case 10:
+	    System.out.println("\nHasta pronto\n");
+	    return;
+	default:
+	    System.out.println("\nOpción inválida\n");
+	    menu();
+	    return;
+	}
+    }
+    
+    public static void main(String[] args){
+	//********************************************************************//
+	//*************** En este main se ejecuta el menú ********************//
+	//********************************************************************//
+	System.out.println("\nBIENVENIDO A MATRIZ\n");
+	menu();
+    }
+}
